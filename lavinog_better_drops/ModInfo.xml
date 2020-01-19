@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Lavinog's Increased Zombie Drops" />
+		<Description value="Increases zombie backpack probability to 0.04/0.15/0.25 for regular/feral/radiated zombies." />
+		<Author value="lavinog" />
+		<Version value="1.2" />
+		<Website value="https://github.com/lavinog/7d2d_mods" />
+	</ModInfo>
+</xml>
