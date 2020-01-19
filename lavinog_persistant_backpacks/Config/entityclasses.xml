@@ -1,0 +1,17 @@
+<configs>
+
+  <!-- Longer stay after death time -->
+  <set xpath="/entity_classes/entity_class
+      [@name='Backpack']
+      /property[@name='TimeStayAfterDeath']/@value">21600</set>
+
+
+<set xpath="/entity_classes/entity_class
+      [@name='DroppedLootContainer']
+      /property[@name='TimeStayAfterDeath']/@value">21600</set>
+      
+  <!-- Longer stay after death time -->
+  <set xpath="/entity_classes/entity_class
+      [starts-with(@name, 'EntityLootContainer')]
+      /property[@name='TimeStayAfterDeath']/@value">21600</set>
+</configs>

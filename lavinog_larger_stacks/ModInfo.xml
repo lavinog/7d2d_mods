@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="lavinog_larger_stacks" />
+		<Description value="Increases stack sizes for: meat, dukes, canned water, shotgun shells, paper, cloth" />
+		<Author value="lavinog" />
+		<Version value="1.1" />
+		<Website value="" />
+	</ModInfo>
+</xml>

@@ -1,0 +1,60 @@
+<config>
+
+
+  <!-- foodRawMeat A18-->
+  <set xpath="/items/item[@name='foodRawMeat']
+    /property[@name='Stacknumber']/@value">300
+  </set>
+ 
+
+  <!-- ammoArrowStone A18-->
+  <set xpath="/items/item[@name='ammoArrowStone']
+    /property[@name='Stacknumber']/@value">300
+  </set>
+  
+  <!-- ammo9mmBulletBall A18 -->
+  <set xpath="/items/item[@name='ammo9mmBulletBall']
+    /property[@name='Stacknumber']/@value">500
+  </set>
+
+  <!-- ammo762mmBulletBall A18 -->
+  <set xpath="/items/item[@name='ammo762mmBulletBall']
+    /property[@name='Stacknumber']/@value">300
+  </set>
+  
+  <!-- ammoCrossbowBoltIron -->
+  <set xpath="/items/item[@name='ammoCrossbowBoltIron']
+    /property[@name='Stacknumber']/@value">300
+  </set>
+  
+  <!-- ammoShotgunShell -->
+  <set xpath="/items/item[@name='ammoShotgunShell']
+    /property[@name='Stacknumber']/@value">300
+  </set>
+  
+  <!-- drinkJarBoiledWater A18-->
+  <set xpath="/items/item[@name='drinkJarBoiledWater']
+    /property[@name='Stacknumber']/@value">20
+  </set>
+  
+   <!-- resourceCloth -->
+  <set xpath="/items/item[@name='resourceCloth']
+    /property[@name='Stacknumber']/@value">500
+  </set>
+
+  <!-- resourceFeather -->
+  <set xpath="/items/item[@name='resourceFeather']
+    /property[@name='Stacknumber']/@value">500
+  </set>
+  
+  <!-- resourcePaper -->
+  <set xpath="/items/item[@name='resourcePaper']
+    /property[@name='Stacknumber']/@value">500
+  </set>
+  
+  <!-- casinoCoin [Don't exceed 32k-->
+  <set xpath="/items/item[@name='casinoCoin']
+    /property[@name='Stacknumber']/@value">25000
+  </set>
+  
+</config>
