@@ -1,0 +1,131 @@
+<configs>
+  <append xpath="/lootcontainers">
+
+
+    <!-- ======= Archery ======= -->
+    <lootgroup name="lavinog_weapon_loot_archery" count="1">
+      <item name="gunBowWooden" mod_chance=".50"/>
+      <item name="gunCrossbowIron" mod_chance=".50"/>
+      <item name="gunBowCompound" mod_chance=".50"/>       
+    </lootgroup>
+    
+    <lootgroup name="lavinog_start_loot_archery" count="all">
+      <item group="lavinog_weapon_loot_archery"/>
+      <item name="resourceFeather" count="60,250"/>
+      <item name="resourceArrowHeadIron" count="60,250"/>
+    </lootgroup>
+    
+
+    <!-- ======= Rifles ======= -->    
+    <lootgroup name="lavinog_weapon_loot_deadeye" count="1">
+      <item name="gunHuntingRifle" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger" mod_chance=".50"/>
+      <item name="gunMR10" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger" mod_chance=".50"/>            
+    </lootgroup>
+    
+    <lootgroup name="lavinog_start_loot_deadeye" count="all">
+      <item group="lavinog_weapon_loot_deadeye"/>
+      <item name="ammo762mmBulletBall" count="60,120"/>
+    </lootgroup>
+    
+    
+    <!-- ======= Machine Guns ======= -->    
+    <lootgroup name="lavinog_weapon_loot_machinegunner" count="1">
+      <item name="gunAK47" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger" mod_chance=".50"/>
+      <item name="gunM60" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger" mod_chance=".50"/>
+      <item name="gunTacticalAR" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger" mod_chance=".50"/>      
+    </lootgroup>
+    
+    <lootgroup name="lavinog_start_loot_machinegunner" count="all">
+      <item group="lavinog_weapon_loot_machinegunner"/>
+      <item name="ammo762mmBulletBall" count="100,250"/>
+    </lootgroup>
+    
+    
+    <!-- ======= Shotguns ======= -->
+    <lootgroup name="lavinog_weapon_loot_boomstick" count="1">
+      <item name="gunDoubleBarrelShotgun" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger" mod_chance=".50"/>
+      <item name="gunPumpShotgun" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger" mod_chance=".50"/>      
+    </lootgroup>
+    
+    <lootgroup name="lavinog_start_loot_boomstick" count="all">
+      <item group="lavinog_weapon_loot_boomstick"/>
+      <item name="ammoShotgunShell" count="60,250"/>
+    </lootgroup>
+    
+    
+    
+    <!-- ======= Pistols ======= -->
+    <lootgroup name="lavinog_weapon_loot_gunslinger" count="1">
+      <item name="gunPistol" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger" mod_chance=".50"/>
+      <item name="gunSMG5" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger" mod_chance=".50"/>
+    </lootgroup>
+    
+    <lootgroup name="lavinog_start_loot_gunslinger" count="all">
+      <item group="lavinog_weapon_loot_gunslinger"/>
+      <item name="ammo9mmBulletBall" count="120,250"/>
+    </lootgroup>
+
+    <lootgroup name="lavinog_start_loot_enforcer" count="all">
+      <item name="gun44Magnum"/>
+      <item name="ammo44MagnumBulletBall" count="60,250"/>
+    </lootgroup>
+
+    
+    <!-- ======= Science ======= -->
+    <lootgroup name="lavinog_start_loot_electrocutioner" count="all">
+      <item name="meleeStunBaton"/>
+      <item name="gunJunkTurret"/>
+      <item name="ammoJunkTurret" count="120,250"/>
+    </lootgroup>
+
+    
+    <lootgroup name="lavinog_start_weapon">
+      <!-- Requires 2 to 3 slots -->
+      <item group="lavinog_start_loot_archery"/>
+      <item group="lavinog_start_loot_deadeye"/>
+      <item group="lavinog_start_loot_machinegunner"/>
+      <item group="lavinog_start_loot_boomstick"/>
+      <item group="lavinog_start_loot_gunslinger"/>
+      <item group="lavinog_start_loot_enforcer"/>
+      <item group="lavinog_start_loot_electrocutioner"/>
+    </lootgroup>
+
+    
+
+    <lootgroup name="lavinog_start_bonus">
+      <!-- Requires 1 to 5 slots -->
+      <item name="casinoCoin" count="500,10000"/>
+      <item group="tools"/>
+      <item group="commonBooks"/>
+      <item group="perkBooks"/>  
+    </lootgroup>
+
+    <lootgroup name="lavinog_start_resources" count="all">
+      <!-- Requires 7 to 11 slots -->
+      <item name="casinoCoin" count="500,1000"/>
+      <item name="resourceYuccaFibers" count="50,200"/>
+      <item name="resourceWood" count="100,1000"/>
+      <item name="resourceRockSmall" count="100,200"/>
+      <item name="resourceFeather" count="20,120"/>  
+      <item name="drinkJarBoiledWater" count="2,9"/>
+      <item group="airdropfood" count="2,5"/>      
+    </lootgroup>
+
+    <lootgroup name="lavinog_start_loot" count="all">
+      <item group="lavinog_start_weapon"/>      
+      <item group="lavinog_start_bonus"/>
+      <item group="lavinog_start_bonus"/>
+      <item group="lavinog_start_resources"/>
+    </lootgroup>
+    
+    <lootcontainer id="240" count="1" size="6,4"
+        sound_open="UseActions/open_backpack"
+        sound_close="UseActions/close_backpack"
+        open_time="3.0"
+        loot_quality_template="qualPrimitiveItemsTemplate"
+        destroy_on_close="true">      
+      <item group="lavinog_start_loot"/>      
+    </lootcontainer>
+
+  </append>
+</configs>

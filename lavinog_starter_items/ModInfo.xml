@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Lavinog's Starter Items" />
+		<Description value="Provides supply chest with additional start items." />
+		<Author value="lavinog" />
+		<Version value="1.0" />
+		<Website value="https://github.com/lavinog/7d2d_mods" />
+	</ModInfo>
+</xml>

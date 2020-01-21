@@ -1,0 +1,24 @@
+<configs>
+  <append xpath="/blocks">
+
+    <block name="lavinog_starter_crate">
+      <property name="Extends" value="cntShippingCrateHero"/>
+      <property name="CustomIcon" value="cntBackpack01"/>
+      <property name="Material" value="MCardboardLoot"/>
+      <property name="CustomIconTint" value="fff080"/>
+      <property name="MaxDamage" value="1"/>
+      <property name="DowngradeBlock" value="lavinog_starter_pack"/>
+    </block>
+
+    <block name="lavinog_starter_pack">
+      <property name="Extends" value="cntWeaponsBagLarge"/>
+      <!--
+      <property name="CustomIcon" value="cntBackpack01"/>
+      <property name="CustomIconTint" value="fff030"/>
+      -->
+
+      <property name="LootList" value="240"/> 
+    </block>
+
+  </append>
+</configs>
