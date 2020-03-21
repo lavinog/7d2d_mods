@@ -1,0 +1,19 @@
+<configs>
+
+  <append xpath="/windows/window[@name='windowCompass']">
+    <rect pos="-180,-5" width="200" height="90" pivot="topright" visible="{visible}" type="sliced" color="[mediumGrey]" >
+      <label depth="2" name="TextContent" pos="0,0" font_size="20" color="[white]" justify="left" pivot="topleft"
+        text="Food: [DECEA3]{playerfood}[-]" height="20" effect="outline" controller="PlayerStatsWindow"/>
+      <label depth="2" name="TextContent" pos="100,0" font_size="20" color="[white]" justify="left" pivot="topleft"
+        text="{playerwatertitle}: [DECEA3]{playerwater}[-]" height="20" effect="outline" controller="PlayerStatsWindow"/>
+    </rect>
+    
+    <rect pos="480,-5" width="200" height="90" pivot="topleft" >  
+      <label depth="2" name="TextContent" pos="0,0" font_size="20" color="[white]" justify="left" pivot="topleft"
+        text="Temp: [DECEA3]{maptemperature}[-]" height="20" controller="MapStats" effect="outline"/>
+      <label depth="2" name="TextContent" pos="100,0" font_size="20" color="[white]" justify="left" pivot="topleft"
+        text="Elev: [DECEA3]{mapelevation}M[-]" height="20" controller="MapStats" effect="outline" />
+    </rect>
+  </append>
+	
+</configs>
