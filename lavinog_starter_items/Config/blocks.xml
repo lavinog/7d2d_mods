@@ -3,9 +3,12 @@
 
     <block name="lavinog_starter_crate">
       <property name="Extends" value="cntShippingCrateHero"/>
+      <property name="CustomIcon" value="cntWeaponsBagLarge"/>
+      <!--
       <property name="CustomIcon" value="cntBackpack01"/>
-      <property name="Material" value="MCardboardLoot"/>
       <property name="CustomIconTint" value="fff080"/>
+      -->
+      <property name="Material" value="MCardboardLoot"/>
       <property name="MaxDamage" value="1"/>
       <property name="DowngradeBlock" value="lavinog_starter_pack"/>
     </block>
