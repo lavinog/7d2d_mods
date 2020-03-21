@@ -1,13 +1,13 @@
 <configs>
-  <append xpath="/traders/trader_item_groups[@name='rareMedicine']">
+  <append xpath="/traders/trader_item_groups/trader_item_group[@name='rareMedicine']">
     <item name="drinkSonicSpeedJuice"/>
   </append>
 
-  <append xpath="/traders/trader_item_groups[@name='farmingCookingRecipes']">
+  <append xpath="/traders/trader_item_groups/trader_item_group[@name='farmingCookingRecipes']">
     <item name="drinkSonicSpeedJuiceSchematic"/>
   </append>
 
-  <append xpath="/traders/trader_item_groups[@name='rareBooks']">
+  <append xpath="/traders/trader_item_groups/trader_item_group[@name='rareBooks']">
     <item name="drinkSonicSpeedJuiceSchematic"/>
   </append>
 
