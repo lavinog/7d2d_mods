@@ -21,6 +21,7 @@
         <label text="- You can find important loot in trash." />
         <label text="- POIs will be rebuilt when you trigger a quest for that POI. Loot it first." />
         <label text="- Use bandages to heal permanent damage before eating." />
+        <label text="- Trader quests provide loot similar to air drops." />
 			</grid>
 		</panel>
 	</window>
