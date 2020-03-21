@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Lavinog's Increased Quest Rewards" />
+		<Description value="Increases rewards for completing trader quests.\n Also grants skillpoints for T2 and up." />
+		<Author value="lavinog" />
+		<Version value="1.0" />
+		<Website value="https://github.com/lavinog/7d2d_mods" />
+	</ModInfo>
+</xml>

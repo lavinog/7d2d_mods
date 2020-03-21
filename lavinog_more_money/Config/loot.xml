@@ -1,0 +1,84 @@
+<configs>
+<!-- Cash -->
+
+  <!-- Junk cash from 1,6 -->
+  <set xpath="/lootcontainers/lootgroup[@name='junk']
+      /item[@name='oldCash']/@count">1,60</set> 
+ 
+  <!-- Safe cash from 10,300 -->
+  <set xpath="/lootcontainers/lootgroup[@name='groupSafeLoot']
+      /item[@name='oldCash']/@count">10,3000</set> 
+
+  <!-- Nightstand cash from 1,20 -->
+  <set xpath="/lootcontainers/lootcontainer[@id='6']
+      /item[@name='oldCash']/@count">1,200</set> 
+
+  <!-- laundry cash from 1,7 -->
+  <set xpath="/lootcontainers/lootcontainer[@id='13']
+      /item[@name='oldCash']/@count">1,70</set> 
+
+ <!-- locker cash from 1,40 -->
+  <set xpath="/lootcontainers/lootcontainer[@id='43']
+      /item[@name='oldCash']/@count">1,400</set> 
+
+ <!-- file cabinet cash from 1,40 -->
+  <set xpath="/lootcontainers/lootcontainer[@id='44']
+      /item[@name='oldCash']/@count">1,400</set> 
+
+ <!-- purse cash from 5,60 -->
+  <set xpath="/lootcontainers/lootcontainer[@id='48']
+      /item[@name='oldCash']/@count">5,600</set> 
+
+  <!-- Register cash from 5,60 -->
+  <set xpath="/lootcontainers/lootcontainer[@id='55']
+      /item[@name='oldCash']/@count">5,600</set> 
+
+ <!-- Treasure cash from 50,250 -->
+  <set xpath="/lootcontainers/lootcontainer[@id='61']
+      /item[@name='oldCash']/@count">50,2500</set> 
+
+      
+ <!-- Regular Loot cash from 150,500 -->
+  <set xpath="/lootcontainers/lootcontainer[@id='70']
+      /item[@name='oldCash']/@count">150,5000</set> 
+    
+ <!-- Strong Loot cash from 150,800 -->
+  <set xpath="/lootcontainers/lootcontainer[@id='71']
+      /item[@name='oldCash']/@count">150,8000</set> 
+      
+ <!-- Boss Loot cash from 500,900 -->
+  <set xpath="/lootcontainers/lootcontainer[@id='73']
+      /item[@name='oldCash']/@count">500,9000</set> 
+
+
+
+<!-- Casino Coins -->
+
+      
+  <!-- Junk coin from 1,5 -->
+  <set xpath="/lootcontainers/lootgroup[@name='junk']
+      /item[@name='casinoCoin']/@count">1,500</set> 
+  
+  <!-- Register coin from 1,60 -->
+  <set xpath="/lootcontainers/lootcontainer[@id='55']
+      /item[@name='casinoCoin']/@count">1,600</set> 
+
+  <!-- Treasure coin from 3000,8000 -->
+  <set xpath="/lootcontainers/lootcontainer[@id='61']
+      /item[@name='casinoCoin']/@count">3000,50000</set> 
+
+  <!-- Regular Loot coin from 200,410 -->
+  <set xpath="/lootcontainers/lootcontainer[@id='70']
+      /item[@name='oldCash']/@count">200,4100</set> 
+    
+  <!-- Strong Loot coin from 10,110 -->
+  <set xpath="/lootcontainers/lootcontainer[@id='71']
+      /item[@name='oldCash']/@count">10,1100</set> 
+      
+ <!-- Boss Loot coin doesn't exist -->
+      
+</configs>
+
+
+
+

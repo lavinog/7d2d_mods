@@ -1,0 +1,7 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
+buffSonicSpeedDesc,buffs,Buff,,,Run as fast as lightning for 60 seconds. Decays over time, but can be stacked up to 5 minutes.,,,,,,,,,,,,,,
+buffSonicSpeedName,buffs,Buff,,,Sonic Speed,,,,,,,,,,,,,,
+buffSonicSpeedTooltip,buffs,Buff,,,Gotta Run Fast,,,,,,,,,,,,,,
+drinkSonicSpeedJuice,items,Food,,,Sonic Speed Juice,,,,,,,,,,,,,,
+drinkSonicSpeedJuiceDesc,items,Food,,,Run as fast as lightning for 60 seconds.\nDecays over time, but can be stacked up to 5 minutes,,,,,,,,,,,,,,
+drinkSonicSpeedJuiceSchematic,items,Food,,,Sonic Speed Juice Recipe,,,,,,,,,,,,,,

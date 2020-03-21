@@ -1,0 +1,46 @@
+<configs>
+  <append xpath="/items">
+
+  
+    <item name="drinkSonicSpeedJuiceSchematic">
+      <property name="Extends" value="schematicNoQualityRecipeMaster"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="CustomIcon" value="resourceTestosteroneExtract"/>
+      <property name="CustomIconTint" value="5050f0"/>
+      <property name="Unlocks" value="drinkSonicSpeedJuice"/>
+      <effect_group tiered="false">
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="drinkSonicSpeedJuice" operation="set" value="1"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+      </effect_group>
+    </item>
+      
+  
+  
+    <item name="drinkSonicSpeedJuice"> 
+      <property name="CustomIcon" value="resourceTestosteroneExtract"/>
+      <property name="CustomIconTint" value="5050f0"/>
+      <property name="HoldType" value="3"/>
+      <property name="Meshfile" value="#Other/Items?Food/bottled_waterPrefab.prefab"/>
+      <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+      <property name="Material" value="Mglass"/>
+      <property name="Weight" value="10"/>
+      <property name="Stacknumber" value="10"/> 
+      <property name="EconomicValue" value="1000"/>
+      <property name="UnlockedBy" value="perkYeahScience,drinkSonicSpeedJuiceSchematic"/>
+      <property name="Group" value="Food/Cooking,CFDrink/Cooking"/>
+      <property class="Action0">
+        <property name="Class" value="Eat"/>
+        <property name="Delay" value="1"/>
+        <property name="Use_time" value="..."/>
+        <property name="Sound_start" value="player_drinking"/>
+        <property name="Create_item" value="drinkJarEmpty"/>
+      </property>
+      <effect_group tiered="false">
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffSonicSpeedDuration" operation="add" value="60"/>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffSonicSpeedDuration" operation="set" value="300">
+          <requirement name="CVarCompare" cvar="$buffSonicSpeedDuration" operation="GT" value="300"/></triggered_effect>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffSonicSpeed"/>
+      </effect_group>
+    </item>
+  </append>
+</configs>

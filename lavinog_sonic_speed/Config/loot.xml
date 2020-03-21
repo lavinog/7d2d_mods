@@ -1,0 +1,32 @@
+<configs>
+
+
+
+  <append xpath="/lootcontainers/lootgroup[@name='farmingCookingRecipes']">
+    <item name="drinkSonicSpeedJuiceSchematic" prob="0.2"/>
+  </append>
+
+
+  <append xpath="/lootcontainers/lootgroup[@name='rareFoodDrink']">
+    <item name="drinkSonicSpeedJuice"/>
+  </append>
+
+  <append xpath="/lootcontainers/lootgroup[@name='rareMedicine']">
+    <item name="drinkSonicSpeedJuice"/>
+  </append>
+
+  <append xpath="/lootcontainers/lootgroup[@name='drinks']">
+    <item name="drinkSonicSpeedJuice" prob="0.045"/>
+  </append>
+
+  
+  <append xpath="/lootcontainers/lootgroup[@name='beverages']">
+    <item name="drinkSonicSpeedJuice" prob="0.045"/>
+  </append>
+
+  
+  <append xpath="/lootcontainers/lootgroup[@name='labEquipment']">
+    <item name="drinkSonicSpeedJuice" prob="0.045"/>
+  </append>
+  
+</configs>

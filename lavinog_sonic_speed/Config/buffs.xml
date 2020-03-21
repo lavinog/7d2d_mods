@@ -1,0 +1,47 @@
+<configs>
+  <append xpath="/buffs">
+    <buff name="buffSonicSpeed" name_key="buffSonicSpeedName" description_key="buffSonicSpeedDesc" tooltip_key="buffSonicSpeedTooltip" icon="ui_game_symbol_star">
+      <stack_type value="replace"/>
+      <duration value="0"/>
+      <display_value value=".buffSonicSpeedDisplay"/><display_value_format value="time"/>
+      <effect_group>
+        <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$buffSonicSpeedDuration" operation="subtract" value="@$MetabolismDuration"/>
+        <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffSonicSpeedDisplay" operation="set" value="@$buffSonicSpeedDuration"/>
+        <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffSonicSpeedDisplay" operation="divide" value="@$MetabolismDuration"/>
+        <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffSonicSpeedDisplay" operation="divide" value="@$MetabolismDuration"/>
+        <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$buffSonicSpeedSpeed" operation="set" value="@$buffSonicSpeedDuration"/>
+        <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$buffSonicSpeedSpeed" operation="multiply" value="0.17"/>
+        <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$buffSonicSpeedSpeed" operation="set" value="10">
+          <requirement name="CVarCompare" cvar="$buffSonicSpeedSpeed" operation="GT" value="10"/>
+        </triggered_effect>        
+      </effect_group>
+
+      <effect_group>
+        <requirement name="CVarCompare" cvar="$buffSonicSpeedDuration" operation="LTE" value="0"/>
+          <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$buffSonicSpeedDuration" operation="set" value="0"/>
+          <triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffSonicSpeed"/>
+      </effect_group>
+
+      <effect_group>
+        <passive_effect name="RunSpeed" operation="perc_add" value="@$buffSonicSpeedSpeed" /> 			
+        <passive_effect name="StaminaChangeOT" operation="perc_add" value="0.15"/>
+              
+        <triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_electric_shock" local_offset="0,0.65,0"/>
+        <triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="p_electric_shock"/>
+        
+        <triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$buffSonicSpeedDuration" operation="set" value="0"/>
+        <triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar=".buffSonicSpeedDisplay" operation="set" value="0"/>
+      </effect_group>
+    </buff>
+    
+  </append>
+  
+  
+  <!-- Reduce impact damage during buff -->
+  <insertAfter xpath="/buffs/buff[@name='buffPlayerFallingDamage']/effect_group/triggered_effect[@cvar='$impactSpeed'][@operation='set']">
+      <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$impactSpeed" operation="subtract" value=".2828"> <!-- 20m -->
+				<requirement name="HasBuff" buff="buffSonicSpeed"/>
+			</triggered_effect>
+	</insertAfter>
+  
+</configs>

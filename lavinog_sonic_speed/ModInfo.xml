@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Lavinog's Sonic Speed" />
+		<Description value="Adds Sonic Speed Juice that gives the player sonic running speed." />
+		<Author value="lavinog" />
+		<Version value="1.0" />
+		<Website value="https://github.com/lavinog/7d2d_mods" />
+	</ModInfo>
+</xml>

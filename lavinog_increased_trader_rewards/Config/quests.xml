@@ -1,0 +1,103 @@
+<configs>
+
+  <!-- Double min exp plus up to 1000 extra for T1 quests -->
+  <set xpath="/quests/quest[@id='tier1_fetch']
+    /reward[@type='Exp']/@value">5000</set> 
+
+  <set xpath="/quests/quest[@id='tier1_clear']
+    /reward[@type='Exp']/@value">6000</set> 
+
+  <set xpath="/quests/quest[@id='tier1_buried_supplies']
+    /reward[@type='Exp']/@value">5000</set> 
+
+  <append xpath="/quests/quest[@id='quest_tier1complete']">
+  	<reward type="Exp" value="6000"/>
+  </append>
+
+ 
+  <!-- Double min coin reward plus up to 1000 extra for T1 quests -->
+  <set xpath="/quests/quest[@id='tier1_fetch']
+    /reward[@type='Item'][@id='casinoCoin']/@value">660</set> 
+
+  <set xpath="/quests/quest[@id='tier1_clear']
+    /reward[@type='Item'][@id='casinoCoin']/@value">1340</set> 
+
+  <set xpath="/quests/quest[@id='tier1_buried_supplies']
+    /reward[@type='Item'][@id='casinoCoin']/@value">1120</set> 
+
+  <set xpath="/quests/quest[@id='quest_tier1complete']
+    /reward[@type='Item'][@id='casinoCoin']/@value">4000</set> 
+
+  
+  
+   <!-- 2.5x min exp plus up to 2000 extra for T2 quests -->
+  <set xpath="/quests/quest[@id='tier2_fetch']
+    /reward[@type='Exp']/@value">9375</set> 
+
+  <set xpath="/quests/quest[@id='tier2_clear']
+    /reward[@type='Exp']/@value">11250</set> 
+
+  <set xpath="/quests/quest[@id='tier2_fetch_clear']
+    /reward[@type='Exp']/@value">12650</set> 
+
+  <set xpath="/quests/quest[@id='tier2_buried_supplies']
+    /reward[@type='Exp']/@value">6250</set> 
+
+  <append xpath="/quests/quest[@id='quest_tier2complete']">
+  	<reward type="Exp" value="8000"/>		
+  </append>
+
+ 
+  <!-- 2.5x min coin reward plus up to 2000 extra for T2 quests -->
+  <set xpath="/quests/quest[@id='tier2_fetch']
+    /reward[@type='Item'][@id='casinoCoin']/@value">1400</set> 
+
+  <set xpath="/quests/quest[@id='tier2_clear']
+    /reward[@type='Item'][@id='casinoCoin']/@value">2825</set> 
+
+  <set xpath="/quests/quest[@id='tier2_fetch_clear']
+    /reward[@type='Item'][@id='casinoCoin']/@value">3175</set> 
+
+  <set xpath="/quests/quest[@id='tier2_buried_supplies']
+    /reward[@type='Item'][@id='casinoCoin']/@value">2350</set> 
+
+  <set xpath="/quests/quest[@id='quest_tier2complete']
+    /reward[@type='Item'][@id='casinoCoin']/@value">4000</set> 
+    
+    
+  <!-- Grant skill point(s) for > T1 quests -->  
+  <append xpath="/quests/quest[starts-with(@id, 'tier2_')]">
+		<reward type="SkillPoints" value="1"/>
+  </append>
+  
+  <append xpath="/quests/quest[starts-with(@id, 'tier3_')]">
+		<reward type="SkillPoints" value="1"/>
+  </append>
+  
+  <append xpath="/quests/quest[starts-with(@id, 'tier4_')]">
+		<reward type="SkillPoints" value="2"/>
+  </append>
+  
+  <append xpath="/quests/quest[starts-with(@id, 'tier5_')]">
+		<reward type="SkillPoints" value="3"/>
+  </append>
+  
+  
+  
+  <append xpath="/quests/quest[@id='quest_tier1complete']">
+		<reward type="SkillPoints" value="1"/>
+  </append>
+  <append xpath="/quests/quest[@id='quest_tier2complete']">
+		<reward type="SkillPoints" value="2"/>
+  </append>
+  <append xpath="/quests/quest[@id='quest_tier3complete']">
+		<reward type="SkillPoints" value="3"/>
+  </append>
+  <append xpath="/quests/quest[@id='quest_tier4complete']">
+		<reward type="SkillPoints" value="4"/>
+  </append>
+   
+ 
+</configs>
+
+
