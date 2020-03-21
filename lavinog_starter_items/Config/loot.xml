@@ -6,7 +6,9 @@
     <lootgroup name="lavinog_weapon_loot_archery" count="1">
       <item name="gunBowWooden" mod_chance=".50"/>
       <item name="gunCrossbowIron" mod_chance=".50"/>
-      <item name="gunBowCompound" mod_chance=".50"/>       
+      <item name="gunBowCompound" mod_chance=".50"/>
+      <item name="gunCrossbowCompound" mod_chance=".50"/>
+      
     </lootgroup>
     
     <lootgroup name="lavinog_start_loot_archery" count="all">
@@ -32,7 +34,9 @@
     <lootgroup name="lavinog_weapon_loot_machinegunner" count="1">
       <item name="gunAK47" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger" mod_chance=".50"/>
       <item name="gunM60" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger" mod_chance=".50"/>
+      <!--
       <item name="gunTacticalAR" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger" mod_chance=".50"/>      
+      -->
     </lootgroup>
     
     <lootgroup name="lavinog_start_loot_machinegunner" count="all">
@@ -103,11 +107,11 @@
     <lootgroup name="lavinog_start_resources" count="all">
       <!-- Requires 7 to 11 slots -->
       <item name="casinoCoin" count="500,1000"/>
-      <item name="resourceYuccaFibers" count="50,200"/>
+      <item name="resourceYuccaFibers" count="200"/>
       <item name="resourceWood" count="100,1000"/>
-      <item name="resourceRockSmall" count="100,200"/>
+      <item name="resourceRockSmall" count="100,500"/>
       <item name="resourceFeather" count="20,120"/>  
-      <item name="drinkJarBoiledWater" count="2,9"/>
+      <item name="drinkJarBoiledWater" count="2,6"/>
       <item group="airdropfood" count="2,5"/>      
     </lootgroup>
 
