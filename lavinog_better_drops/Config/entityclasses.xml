@@ -1,17 +1,17 @@
 <configs>
 
-  <!-- Normal Zombies -->
+  <!-- Normal Zombies (0.02 -> 0.5) -->
   <set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']
-      /property[@name='LootDropProb']/@value">0.04</set>
+      /property[@name='LootDropProb']/@value">0.05</set>
 
-  <!-- Feral Zombies -->
+  <!-- Feral Zombies (0.03 -> 0.15) -->
   <set xpath="/entity_classes/entity_class
       [starts-with(@name, 'zombie') and contains(@name, 'Feral')]
       /property[@name='LootDropProb']/@value">0.15</set>
 
-  <!-- Radiated Zombies -->
+  <!-- Radiated Zombies (0.03 -> 0.20) -->
   <set xpath="/entity_classes/entity_class
       [starts-with(@name, 'zombie') and contains(@name, 'Radiated')]
-      /property[@name='LootDropProb']/@value">0.25</set>
+      /property[@name='LootDropProb']/@value">0.20</set>
 
 </configs>
