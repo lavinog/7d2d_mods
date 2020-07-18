@@ -1,12 +1,12 @@
 # 7d2d_mods
-Mods for 7 days to die Alpha 18
+Mods for 7 days to die Alpha 19
 
 
 ## Modlet: Better Drops
 ### Increases the probability of backpack drops.
- * Regular Zombies 0.02 -> 0.04 
+ * Regular Zombies 0.02 -> 0.05 
  * Feral Zombies 0.03 -> 0.15
- * Radiated Zombies 0.03 -> 0.25
+ * Radiated Zombies 0.03 -> 0.20
 
 ## Modlet: Faster Vehicles
 ### Increases the max velocity of some vehicles.
