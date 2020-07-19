@@ -1,6 +1,11 @@
 <configs>
 <!-- Open the trader earlier -->	
 <set xpath="/traders/trader_info[@id='1']/@open_time">4:30</set> 
+<set xpath="/traders/trader_info[@id='6']/@open_time">4:30</set> 
+<set xpath="/traders/trader_info[@id='2']/@open_time">4:30</set> 
+<set xpath="/traders/trader_info[@id='7']/@open_time">4:30</set> 
+<set xpath="/traders/trader_info[@id='8']/@open_time">4:30</set> 
+
 
 <!-- Reduce vending machine rental cost and duration from $2500/30days -->
   <set xpath="/traders/trader_info[@id='5']/@rent_cost">250</set> 

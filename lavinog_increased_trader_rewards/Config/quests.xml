@@ -1,87 +1,311 @@
 <configs>
+<!--
+  ------------------------------
+buried_supplies exp
+    tier1_buried_supplies 2500 -> 3000
+    tier2_buried_supplies 2500 -> 4600
+clear exp
+    tier1_clear 3000 -> 4000
+    tier2_clear 4500 -> 5764
+    tier3_clear 6000 -> 11056
+    tier4_clear 7500 -> 19876
+    tier5_clear 15000 -> 32224
+    tier6_clear 24000 -> 48100
+fetch exp
+    tier1_fetch 2500 -> 3500
+    tier2_fetch 3750 -> 4944
+    tier3_fetch 5000 -> 9276
+    tier4_fetch 6250 -> 16496
+    tier5_fetch 12500 -> 26604
+    tier6_fetch 20000 -> 39600
+fetch_clear exp
+    tier2_fetch_clear 5060 -> 6436
+    tier3_fetch_clear 6750 -> 12244
+    tier4_fetch_clear 8400 -> 21924
+    tier5_fetch_clear 16900 -> 35476
+    tier6_fetch_clear 27000 -> 52900
+nexttrader exp
+    tier2_nexttrader 500 -> 1400
+    tier3_nexttrader 500 -> 2600
+    tier4_nexttrader 500 -> 4600
+    tier5_nexttrader 500 -> 7400
+buried_supplies casinocoin
+    tier1_buried_supplies 2500 -> 3000
+    tier2_buried_supplies 2500 -> 4600
+clear casinocoin
+    tier1_clear 3000 -> 4000
+    tier2_clear 4500 -> 5764
+    tier3_clear 6000 -> 11056
+    tier4_clear 7500 -> 19876
+    tier5_clear 15000 -> 32224
+    tier6_clear 24000 -> 48100
+fetch casinocoin
+    tier1_fetch 2500 -> 3500
+    tier2_fetch 3750 -> 4944
+    tier3_fetch 5000 -> 9276
+    tier4_fetch 6250 -> 16496
+    tier5_fetch 12500 -> 26604
+    tier6_fetch 20000 -> 39600
+fetch_clear casinocoin
+    tier2_fetch_clear 5060 -> 6436
+    tier3_fetch_clear 6750 -> 12244
+    tier4_fetch_clear 8400 -> 21924
+    tier5_fetch_clear 16900 -> 35476
+    tier6_fetch_clear 27000 -> 52900
+nexttrader casinocoin
+    tier2_nexttrader 500 -> 1400
+    tier3_nexttrader 500 -> 2600
+    tier4_nexttrader 500 -> 4600
+    tier5_nexttrader 500 -> 7400
+------------------------------
+-->
 
-  <!-- Double min exp plus up to 1000 extra for T1 quests -->
-  <set xpath="/quests/quest[@id='tier1_fetch']
-    /reward[@type='Exp']/@value">5000</set> 
+<!-- Changing tier1_fetch Exp Reward from 2500 to 3500 -->
+<set xpath="/quests/quest[@id='tier1_fetch']
+	/reward[@type='Exp']/@value">3500</set>
 
-  <set xpath="/quests/quest[@id='tier1_clear']
-    /reward[@type='Exp']/@value">6000</set> 
+<!-- Changing tier2_fetch Exp Reward from 3750 to 4944 -->
+<set xpath="/quests/quest[@id='tier2_fetch']
+	/reward[@type='Exp']/@value">4944</set>
 
-  <set xpath="/quests/quest[@id='tier1_buried_supplies']
-    /reward[@type='Exp']/@value">5000</set> 
+<!-- Changing tier3_fetch Exp Reward from 5000 to 9276 -->
+<set xpath="/quests/quest[@id='tier3_fetch']
+	/reward[@type='Exp']/@value">9276</set>
 
+<!-- Changing tier4_fetch Exp Reward from 6250 to 16496 -->
+<set xpath="/quests/quest[@id='tier4_fetch']
+	/reward[@type='Exp']/@value">16496</set>
+
+<!-- Changing tier5_fetch Exp Reward from 12500 to 26604 -->
+<set xpath="/quests/quest[@id='tier5_fetch']
+	/reward[@type='Exp']/@value">26604</set>
+
+<!-- Changing tier6_fetch Exp Reward from 20000 to 39600 -->
+<set xpath="/quests/quest[@id='tier6_fetch']
+	/reward[@type='Exp']/@value">39600</set>
+
+<!-- Changing tier1_clear Exp Reward from 3000 to 4000 -->
+<set xpath="/quests/quest[@id='tier1_clear']
+	/reward[@type='Exp']/@value">4000</set>
+
+<!-- Changing tier2_clear Exp Reward from 4500 to 5764 -->
+<set xpath="/quests/quest[@id='tier2_clear']
+	/reward[@type='Exp']/@value">5764</set>
+
+<!-- Changing tier3_clear Exp Reward from 6000 to 11056 -->
+<set xpath="/quests/quest[@id='tier3_clear']
+	/reward[@type='Exp']/@value">11056</set>
+
+<!-- Changing tier4_clear Exp Reward from 7500 to 19876 -->
+<set xpath="/quests/quest[@id='tier4_clear']
+	/reward[@type='Exp']/@value">19876</set>
+
+<!-- Changing tier5_clear Exp Reward from 15000 to 32224 -->
+<set xpath="/quests/quest[@id='tier5_clear']
+	/reward[@type='Exp']/@value">32224</set>
+
+<!-- Changing tier6_clear Exp Reward from 24000 to 48100 -->
+<set xpath="/quests/quest[@id='tier6_clear']
+	/reward[@type='Exp']/@value">48100</set>
+
+<!-- Changing tier2_fetch_clear Exp Reward from 5060 to 6436 -->
+<set xpath="/quests/quest[@id='tier2_fetch_clear']
+	/reward[@type='Exp']/@value">6436</set>
+
+<!-- Changing tier3_fetch_clear Exp Reward from 6750 to 12244 -->
+<set xpath="/quests/quest[@id='tier3_fetch_clear']
+	/reward[@type='Exp']/@value">12244</set>
+
+<!-- Changing tier4_fetch_clear Exp Reward from 8400 to 21924 -->
+<set xpath="/quests/quest[@id='tier4_fetch_clear']
+	/reward[@type='Exp']/@value">21924</set>
+
+<!-- Changing tier5_fetch_clear Exp Reward from 16900 to 35476 -->
+<set xpath="/quests/quest[@id='tier5_fetch_clear']
+	/reward[@type='Exp']/@value">35476</set>
+
+<!-- Changing tier6_fetch_clear Exp Reward from 27000 to 52900 -->
+<set xpath="/quests/quest[@id='tier6_fetch_clear']
+	/reward[@type='Exp']/@value">52900</set>
+
+<!-- Changing tier1_buried_supplies Exp Reward from 2500 to 3000 -->
+<set xpath="/quests/quest[@id='tier1_buried_supplies']
+	/reward[@type='Exp']/@value">3000</set>
+
+<!-- Changing tier2_buried_supplies Exp Reward from 2500 to 4600 -->
+<set xpath="/quests/quest[@id='tier2_buried_supplies']
+	/reward[@type='Exp']/@value">4600</set>
+
+<!-- Changing tier2_nexttrader Exp Reward from 500 to 1400 -->
+<set xpath="/quests/quest[@id='tier2_nexttrader']
+	/reward[@type='Exp']/@value">1400</set>
+
+<!-- Changing tier3_nexttrader Exp Reward from 500 to 2600 -->
+<set xpath="/quests/quest[@id='tier3_nexttrader']
+	/reward[@type='Exp']/@value">2600</set>
+
+<!-- Changing tier4_nexttrader Exp Reward from 500 to 4600 -->
+<set xpath="/quests/quest[@id='tier4_nexttrader']
+	/reward[@type='Exp']/@value">4600</set>
+
+<!-- Changing tier5_nexttrader Exp Reward from 500 to 7400 -->
+<set xpath="/quests/quest[@id='tier5_nexttrader']
+	/reward[@type='Exp']/@value">7400</set>
+
+
+<!-- casinoCoin Gains -->
+
+<!-- Changing tier1_fetch casinoCoin Reward from 2500 to 3500 -->
+<set xpath="/quests/quest[@id='tier1_fetch']
+	/reward[@type='Item'][@id='casinoCoin']/@value">3500</set>
+
+<!-- Changing tier2_fetch casinoCoin Reward from 3750 to 4944 -->
+<set xpath="/quests/quest[@id='tier2_fetch']
+	/reward[@type='Item'][@id='casinoCoin']/@value">4944</set>
+
+<!-- Changing tier3_fetch casinoCoin Reward from 5000 to 9276 -->
+<set xpath="/quests/quest[@id='tier3_fetch']
+	/reward[@type='Item'][@id='casinoCoin']/@value">9276</set>
+
+<!-- Changing tier4_fetch casinoCoin Reward from 6250 to 16496 -->
+<set xpath="/quests/quest[@id='tier4_fetch']
+	/reward[@type='Item'][@id='casinoCoin']/@value">16496</set>
+
+<!-- Changing tier5_fetch casinoCoin Reward from 12500 to 26604 -->
+<set xpath="/quests/quest[@id='tier5_fetch']
+	/reward[@type='Item'][@id='casinoCoin']/@value">26604</set>
+
+<!-- Changing tier6_fetch casinoCoin Reward from 20000 to 39600 -->
+<set xpath="/quests/quest[@id='tier6_fetch']
+	/reward[@type='Item'][@id='casinoCoin']/@value">39600</set>
+
+<!-- Changing tier1_clear casinoCoin Reward from 3000 to 4000 -->
+<set xpath="/quests/quest[@id='tier1_clear']
+	/reward[@type='Item'][@id='casinoCoin']/@value">4000</set>
+
+<!-- Changing tier2_clear casinoCoin Reward from 4500 to 5764 -->
+<set xpath="/quests/quest[@id='tier2_clear']
+	/reward[@type='Item'][@id='casinoCoin']/@value">5764</set>
+
+<!-- Changing tier3_clear casinoCoin Reward from 6000 to 11056 -->
+<set xpath="/quests/quest[@id='tier3_clear']
+	/reward[@type='Item'][@id='casinoCoin']/@value">11056</set>
+
+<!-- Changing tier4_clear casinoCoin Reward from 7500 to 19876 -->
+<set xpath="/quests/quest[@id='tier4_clear']
+	/reward[@type='Item'][@id='casinoCoin']/@value">19876</set>
+
+<!-- Changing tier5_clear casinoCoin Reward from 15000 to 32224 -->
+<set xpath="/quests/quest[@id='tier5_clear']
+	/reward[@type='Item'][@id='casinoCoin']/@value">32224</set>
+
+<!-- Changing tier6_clear casinoCoin Reward from 24000 to 48100 -->
+<set xpath="/quests/quest[@id='tier6_clear']
+	/reward[@type='Item'][@id='casinoCoin']/@value">48100</set>
+
+<!-- Changing tier2_fetch_clear casinoCoin Reward from 5060 to 6436 -->
+<set xpath="/quests/quest[@id='tier2_fetch_clear']
+	/reward[@type='Item'][@id='casinoCoin']/@value">6436</set>
+
+<!-- Changing tier3_fetch_clear casinoCoin Reward from 6750 to 12244 -->
+<set xpath="/quests/quest[@id='tier3_fetch_clear']
+	/reward[@type='Item'][@id='casinoCoin']/@value">12244</set>
+
+<!-- Changing tier4_fetch_clear casinoCoin Reward from 8400 to 21924 -->
+<set xpath="/quests/quest[@id='tier4_fetch_clear']
+	/reward[@type='Item'][@id='casinoCoin']/@value">21924</set>
+
+<!-- Changing tier5_fetch_clear casinoCoin Reward from 16900 to 35476 -->
+<set xpath="/quests/quest[@id='tier5_fetch_clear']
+	/reward[@type='Item'][@id='casinoCoin']/@value">35476</set>
+
+<!-- Changing tier6_fetch_clear casinoCoin Reward from 27000 to 52900 -->
+<set xpath="/quests/quest[@id='tier6_fetch_clear']
+	/reward[@type='Item'][@id='casinoCoin']/@value">52900</set>
+
+<!-- Changing tier1_buried_supplies casinoCoin Reward from 2500 to 3000 -->
+<set xpath="/quests/quest[@id='tier1_buried_supplies']
+	/reward[@type='Item'][@id='casinoCoin']/@value">3000</set>
+
+<!-- Changing tier2_buried_supplies casinoCoin Reward from 2500 to 4600 -->
+<set xpath="/quests/quest[@id='tier2_buried_supplies']
+	/reward[@type='Item'][@id='casinoCoin']/@value">4600</set>
+
+<!-- Changing tier2_nexttrader casinoCoin Reward from 500 to 1400 -->
+<set xpath="/quests/quest[@id='tier2_nexttrader']
+	/reward[@type='Item'][@id='casinoCoin']/@value">1400</set>
+
+<!-- Changing tier3_nexttrader casinoCoin Reward from 500 to 2600 -->
+<set xpath="/quests/quest[@id='tier3_nexttrader']
+	/reward[@type='Item'][@id='casinoCoin']/@value">2600</set>
+
+<!-- Changing tier4_nexttrader casinoCoin Reward from 500 to 4600 -->
+<set xpath="/quests/quest[@id='tier4_nexttrader']
+	/reward[@type='Item'][@id='casinoCoin']/@value">4600</set>
+
+<!-- Changing tier5_nexttrader casinoCoin Reward from 500 to 7400 -->
+<set xpath="/quests/quest[@id='tier5_nexttrader']
+	/reward[@type='Item'][@id='casinoCoin']/@value">7400</set>
+
+  
+  
+<!-- Grant Experience for completing a tier -->
   <append xpath="/quests/quest[@id='quest_tier1complete']">
-  	<reward type="Exp" value="6000"/>
+  	<reward type="Exp" value="2000"/>
   </append>
-
- 
-  <!-- Double min coin reward plus up to 1000 extra for T1 quests -->
-  <set xpath="/quests/quest[@id='tier1_fetch']
-    /reward[@type='Item'][@id='casinoCoin']/@value">660</set> 
-
-  <set xpath="/quests/quest[@id='tier1_clear']
-    /reward[@type='Item'][@id='casinoCoin']/@value">1340</set> 
-
-  <set xpath="/quests/quest[@id='tier1_buried_supplies']
-    /reward[@type='Item'][@id='casinoCoin']/@value">1120</set> 
-
-  <set xpath="/quests/quest[@id='quest_tier1complete']
-    /reward[@type='Item'][@id='casinoCoin']/@value">4000</set> 
-
-  
-  
-   <!-- 2.5x min exp plus up to 2000 extra for T2 quests -->
-  <set xpath="/quests/quest[@id='tier2_fetch']
-    /reward[@type='Exp']/@value">9375</set> 
-
-  <set xpath="/quests/quest[@id='tier2_clear']
-    /reward[@type='Exp']/@value">11250</set> 
-
-  <set xpath="/quests/quest[@id='tier2_fetch_clear']
-    /reward[@type='Exp']/@value">12650</set> 
-
-  <set xpath="/quests/quest[@id='tier2_buried_supplies']
-    /reward[@type='Exp']/@value">6250</set> 
-
   <append xpath="/quests/quest[@id='quest_tier2complete']">
-  	<reward type="Exp" value="8000"/>		
+  	<reward type="Exp" value="5000"/>		
+  </append>  
+   <append xpath="/quests/quest[@id='quest_tier3complete']">
+  	<reward type="Exp" value="8000"/>
   </append>
-
+  <append xpath="/quests/quest[@id='quest_tier4complete']">
+  	<reward type="Exp" value="12000"/>		
+  </append>  
+   <append xpath="/quests/quest[@id='quest_tier5complete']">
+  	<reward type="Exp" value="16000"/>
+  </append>
+  <append xpath="/quests/quest[@id='quest_tier6complete']">
+  	<reward type="Exp" value="20000"/>		
+  </append>
  
-  <!-- 2.5x min coin reward plus up to 2000 extra for T2 quests -->
-  <set xpath="/quests/quest[@id='tier2_fetch']
-    /reward[@type='Item'][@id='casinoCoin']/@value">1400</set> 
-
-  <set xpath="/quests/quest[@id='tier2_clear']
-    /reward[@type='Item'][@id='casinoCoin']/@value">2825</set> 
-
-  <set xpath="/quests/quest[@id='tier2_fetch_clear']
-    /reward[@type='Item'][@id='casinoCoin']/@value">3175</set> 
-
-  <set xpath="/quests/quest[@id='tier2_buried_supplies']
-    /reward[@type='Item'][@id='casinoCoin']/@value">2350</set> 
+<!-- Increase Coins for completing quest tiers -->  
+  <set xpath="/quests/quest[@id='quest_tier1complete']
+    /reward[@type='Item'][@id='casinoCoin']/@value">2000</set> 
 
   <set xpath="/quests/quest[@id='quest_tier2complete']
-    /reward[@type='Item'][@id='casinoCoin']/@value">4000</set> 
+    /reward[@type='Item'][@id='casinoCoin']/@value">5000</set> 
+  
+  <set xpath="/quests/quest[@id='quest_tier3complete']
+    /reward[@type='Item'][@id='casinoCoin']/@value">8000</set> 
+
+  <set xpath="/quests/quest[@id='quest_tier4complete']
+    /reward[@type='Item'][@id='casinoCoin']/@value">12000</set> 
+  
+  <set xpath="/quests/quest[@id='quest_tier5complete']
+    /reward[@type='Item'][@id='casinoCoin']/@value">16000</set> 
+
+  <set xpath="/quests/quest[@id='quest_tier6complete']
+    /reward[@type='Item'][@id='casinoCoin']/@value">20000</set> 
     
+  
     
   <!-- Grant skill point(s) for > T1 quests -->  
   <append xpath="/quests/quest[starts-with(@id, 'tier2_')]">
 		<reward type="SkillPoints" value="1"/>
-  </append>
-  
+  </append>  
   <append xpath="/quests/quest[starts-with(@id, 'tier3_')]">
 		<reward type="SkillPoints" value="1"/>
-  </append>
-  
+  </append>  
   <append xpath="/quests/quest[starts-with(@id, 'tier4_')]">
 		<reward type="SkillPoints" value="2"/>
-  </append>
-  
+  </append>  
   <append xpath="/quests/quest[starts-with(@id, 'tier5_')]">
 		<reward type="SkillPoints" value="3"/>
+  </append>  
+  <append xpath="/quests/quest[starts-with(@id, 'tier6_')]">
+		<reward type="SkillPoints" value="3"/>
   </append>
-  
   
   
   <append xpath="/quests/quest[@id='quest_tier1complete']">
@@ -96,7 +320,10 @@
   <append xpath="/quests/quest[@id='quest_tier4complete']">
 		<reward type="SkillPoints" value="4"/>
   </append>
-   
+  <append xpath="/quests/quest[@id='quest_tier5complete']">
+		<reward type="SkillPoints" value="5"/>
+  </append>
+  
  
 </configs>
 
