@@ -1,0 +1,333 @@
+<configs>
+
+
+	<!-- groupAmmoRegularGunslingerT1 : ammo9mmBulletBall 15,30 -> 15,83 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupAmmoRegularGunslingerT1']
+		/item[@name='ammo9mmBulletBall']/@count">15,83</set>
+
+	<!-- groupAmmoRegularGunslingerT1 : ammo9mmBulletBall 15,30 -> 15,83 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupAmmoRegularGunslingerT1']
+		/item[@name='ammo9mmBulletBall']/@count">15,83</set>
+
+	<!-- groupAmmoRegularGunslingerT1 : ammo44MagnumBulletBall 6,14 -> 6,30 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupAmmoRegularGunslingerT1']
+		/item[@name='ammo44MagnumBulletBall']/@count">6,30</set>
+
+	<!-- groupAmmoRegularGunslingerT2 : ammo9mmBulletBall 20,40 -> 20,120 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupAmmoRegularGunslingerT2']
+		/item[@name='ammo9mmBulletBall']/@count">20,120</set>
+
+	<!-- groupAmmoRegularGunslingerT2 : ammo9mmBulletBall 20,40 -> 20,120 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupAmmoRegularGunslingerT2']
+		/item[@name='ammo9mmBulletBall']/@count">20,120</set>
+
+	<!-- groupAmmoRegularGunslingerT2 : ammo44MagnumBulletBall 8,19 -> 8,45 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupAmmoRegularGunslingerT2']
+		/item[@name='ammo44MagnumBulletBall']/@count">8,45</set>
+
+	<!-- groupAmmoRegularT0 : ammoBlunderbuss 3,6 -> 3,10 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupAmmoRegularT0']
+		/item[@name='ammoBlunderbuss']/@count">3,10</set>
+
+	<!-- groupAmmoRegularT0 : ammo9mmBulletBall 7,15 -> 7,33 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupAmmoRegularT0']
+		/item[@name='ammo9mmBulletBall']/@count">7,33</set>
+
+	<!-- groupAmmoRegularT0 : ammoShotgunShell 3,4 -> 3,6 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupAmmoRegularT0']
+		/item[@name='ammoShotgunShell']/@count">3,6</set>
+
+	<!-- groupAmmoRegularT0 : ammo762mmBulletBall 6,12 -> 6,25 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupAmmoRegularT0']
+		/item[@name='ammo762mmBulletBall']/@count">6,25</set>
+
+	<!-- groupAmmoRegularT0 : ammoArrowIron 4,8 -> 4,14 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupAmmoRegularT0']
+		/item[@name='ammoArrowIron']/@count">4,14</set>
+
+	<!-- groupAmmoRegularT0 : ammoCrossbowBoltIron 3,6 -> 3,10 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupAmmoRegularT0']
+		/item[@name='ammoCrossbowBoltIron']/@count">3,10</set>
+
+	<!-- groupAmmoRegularT1 : ammoShotgunShell 5,7 -> 5,12 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupAmmoRegularT1']
+		/item[@name='ammoShotgunShell']/@count">5,12</set>
+
+	<!-- groupAmmoRegularT1 : ammo762mmBulletBall 8,17 -> 8,39 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupAmmoRegularT1']
+		/item[@name='ammo762mmBulletBall']/@count">8,39</set>
+
+	<!-- groupAmmoRegularT1 : ammoArrowIron 6,18 -> 6,42 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupAmmoRegularT1']
+		/item[@name='ammoArrowIron']/@count">6,42</set>
+
+	<!-- groupAmmoRegularT1 : ammoCrossbowBoltIron 6,12 -> 6,25 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupAmmoRegularT1']
+		/item[@name='ammoCrossbowBoltIron']/@count">6,25</set>
+
+	<!-- groupAmmoRegularT2 : ammoShotgunShell 6,9 -> 6,17 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupAmmoRegularT2']
+		/item[@name='ammoShotgunShell']/@count">6,17</set>
+
+	<!-- groupAmmoRegularT2 : ammo762mmBulletBall 12,25 -> 12,65 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupAmmoRegularT2']
+		/item[@name='ammo762mmBulletBall']/@count">12,65</set>
+
+	<!-- groupAmmoRegularT2 : ammoArrowIron 12,24 -> 12,62 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupAmmoRegularT2']
+		/item[@name='ammoArrowIron']/@count">12,62</set>
+
+	<!-- groupAmmoRegularT2 : ammoCrossbowBoltIron 8,16 -> 8,36 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupAmmoRegularT2']
+		/item[@name='ammoCrossbowBoltIron']/@count">8,36</set>
+
+	<!-- groupAmmoAdvancedGunslinger : ammo9mmBulletBall 20,40 -> 20,120 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupAmmoAdvancedGunslinger']
+		/item[@name='ammo9mmBulletBall']/@count">20,120</set>
+
+	<!-- groupAmmoAdvancedGunslinger : ammo9mmBulletAP 20,40 -> 20,120 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupAmmoAdvancedGunslinger']
+		/item[@name='ammo9mmBulletAP']/@count">20,120</set>
+
+	<!-- groupAmmoAdvancedGunslinger : ammo9mmBulletHP 14,30 -> 14,83 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupAmmoAdvancedGunslinger']
+		/item[@name='ammo9mmBulletHP']/@count">14,83</set>
+
+	<!-- groupAmmoAdvancedGunslinger : ammo9mmBulletAP 20,40 -> 20,120 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupAmmoAdvancedGunslinger']
+		/item[@name='ammo9mmBulletAP']/@count">20,120</set>
+
+	<!-- groupAmmoAdvancedGunslinger : ammo9mmBulletHP 14,30 -> 14,83 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupAmmoAdvancedGunslinger']
+		/item[@name='ammo9mmBulletHP']/@count">14,83</set>
+
+	<!-- groupAmmoAdvancedGunslinger : ammo44MagnumBulletAP 8,19 -> 8,45 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupAmmoAdvancedGunslinger']
+		/item[@name='ammo44MagnumBulletAP']/@count">8,45</set>
+
+	<!-- groupAmmoAdvancedGunslinger : ammo44MagnumBulletHP 6,14 -> 6,30 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupAmmoAdvancedGunslinger']
+		/item[@name='ammo44MagnumBulletHP']/@count">6,30</set>
+
+	<!-- groupAmmoAdvanced : ammo762mmBulletAP 12,25 -> 12,65 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupAmmoAdvanced']
+		/item[@name='ammo762mmBulletAP']/@count">12,65</set>
+
+	<!-- groupAmmoAdvanced : ammo762mmBulletHP 8,19 -> 8,45 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupAmmoAdvanced']
+		/item[@name='ammo762mmBulletHP']/@count">8,45</set>
+
+	<!-- groupAmmoAdvanced : ammoShotgunSlug 6,11 -> 6,22 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupAmmoAdvanced']
+		/item[@name='ammoShotgunSlug']/@count">6,22</set>
+
+	<!-- groupAmmoAdvanced : ammoShotgunBreachingSlug 8,16 -> 8,36 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupAmmoAdvanced']
+		/item[@name='ammoShotgunBreachingSlug']/@count">8,36</set>
+
+	<!-- groupAmmoAdvanced : ammoArrowSteelAP 10,20 -> 10,49 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupAmmoAdvanced']
+		/item[@name='ammoArrowSteelAP']/@count">10,49</set>
+
+	<!-- groupAmmoAdvanced : ammoArrowFlaming 5,8 -> 5,14 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupAmmoAdvanced']
+		/item[@name='ammoArrowFlaming']/@count">5,14</set>
+
+	<!-- groupAmmoAdvanced : ammoCrossbowBoltFlaming 5,8 -> 5,14 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupAmmoAdvanced']
+		/item[@name='ammoCrossbowBoltFlaming']/@count">5,14</set>
+
+	<!-- groupAmmoAdvanced : ammoCrossbowBoltSteelAP 6,14 -> 6,30 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupAmmoAdvanced']
+		/item[@name='ammoCrossbowBoltSteelAP']/@count">6,30</set>
+
+	<!-- groupAmmoAdvanced : ammoArrowExploding 4,6 -> 4,10 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupAmmoAdvanced']
+		/item[@name='ammoArrowExploding']/@count">4,10</set>
+
+	<!-- groupAmmoAdvanced : ammoCrossbowBoltExploding 3,5 -> 3,8 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupAmmoAdvanced']
+		/item[@name='ammoCrossbowBoltExploding']/@count">3,8</set>
+
+	<!-- groupAmmoAdvanced : ammoRocketHE 1 -> 2 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupAmmoAdvanced']
+		/item[@name='ammoRocketHE']/@count">2</set>
+
+	<!-- groupAmmoAdvanced : ammoRocketFrag 1 -> 2 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupAmmoAdvanced']
+		/item[@name='ammoRocketFrag']/@count">2</set>
+
+	<!-- groupAmmoRocket : ammoRocketHE 1 -> 2 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupAmmoRocket']
+		/item[@name='ammoRocketHE']/@count">2</set>
+
+	<!-- groupAmmoRocket : ammoRocketFrag 1 -> 2 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupAmmoRocket']
+		/item[@name='ammoRocketFrag']/@count">2</set>
+
+	<!-- groupWeaponsT1_DeadEye : ammo762mmBulletBall 6,25 -> 6,65 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupWeaponsT1_DeadEye']
+		/item[@name='ammo762mmBulletBall']/@count">6,65</set>
+
+	<!-- groupWeaponsT2_DeadEye : ammo762mmBulletBall 6,25 -> 6,65 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupWeaponsT2_DeadEye']
+		/item[@name='ammo762mmBulletBall']/@count">6,65</set>
+
+	<!-- groupWeaponsT3_DeadEye : ammo762mmBulletBall 6,25 -> 6,65 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupWeaponsT3_DeadEye']
+		/item[@name='ammo762mmBulletBall']/@count">6,65</set>
+
+	<!-- groupWeaponsT0_Boomstick : ammoBlunderbuss 5,12 -> 5,25 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupWeaponsT0_Boomstick']
+		/item[@name='ammoBlunderbuss']/@count">5,25</set>
+
+	<!-- groupWeaponsT1_Boomstick : ammoShotgunShell 3,9 -> 3,17 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupWeaponsT1_Boomstick']
+		/item[@name='ammoShotgunShell']/@count">3,17</set>
+
+	<!-- groupWeaponsT2_Boomstick : ammoShotgunShell 3,9 -> 3,17 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupWeaponsT2_Boomstick']
+		/item[@name='ammoShotgunShell']/@count">3,17</set>
+
+	<!-- groupWeaponsT3_Boomstick : ammoShotgunShell 3,9 -> 3,17 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupWeaponsT3_Boomstick']
+		/item[@name='ammoShotgunShell']/@count">3,17</set>
+
+	<!-- groupWeaponsT1_Machinegunner : ammo762mmBulletBall 6,25 -> 6,65 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupWeaponsT1_Machinegunner']
+		/item[@name='ammo762mmBulletBall']/@count">6,65</set>
+
+	<!-- groupWeaponsT2_Machinegunner : ammo762mmBulletBall 6,25 -> 6,65 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupWeaponsT2_Machinegunner']
+		/item[@name='ammo762mmBulletBall']/@count">6,65</set>
+
+	<!-- groupWeaponsT3_Machinegunner : ammo762mmBulletBall 6,25 -> 6,65 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupWeaponsT3_Machinegunner']
+		/item[@name='ammo762mmBulletBall']/@count">6,65</set>
+
+	<!-- groupWeaponsT0_Archery : ammoArrowStone 3,6 -> 3,10 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupWeaponsT0_Archery']
+		/item[@name='ammoArrowStone']/@count">3,10</set>
+
+	<!-- groupWeaponsT1_Archery01 : ammoArrowIron 6,24 -> 6,62 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupWeaponsT1_Archery01']
+		/item[@name='ammoArrowIron']/@count">6,62</set>
+
+	<!-- groupWeaponsT1_Archery02 : ammoCrossbowBoltIron 4,16 -> 4,36 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupWeaponsT1_Archery02']
+		/item[@name='ammoCrossbowBoltIron']/@count">4,36</set>
+
+	<!-- groupWeaponsT3_Archery01 : ammoArrowIron 6,24 -> 6,62 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupWeaponsT3_Archery01']
+		/item[@name='ammoArrowIron']/@count">6,62</set>
+
+	<!-- groupWeaponsT3_Archery02 : ammoCrossbowBoltIron 4,16 -> 4,36 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupWeaponsT3_Archery02']
+		/item[@name='ammoCrossbowBoltIron']/@count">4,36</set>
+
+	<!-- groupWeaponsT1_Gunslinger : ammo9mmBulletBall 10,40 -> 10,120 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupWeaponsT1_Gunslinger']
+		/item[@name='ammo9mmBulletBall']/@count">10,120</set>
+
+	<!-- groupWeaponsT2_Gunslinger : ammo44MagnumBulletBall 4,19 -> 4,45 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupWeaponsT2_Gunslinger']
+		/item[@name='ammo44MagnumBulletBall']/@count">4,45</set>
+
+	<!-- groupWeaponsT3_Gunslinger01 : ammo9mmBulletBall 10,40 -> 10,120 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupWeaponsT3_Gunslinger01']
+		/item[@name='ammo9mmBulletBall']/@count">10,120</set>
+
+	<!-- groupWeaponsT3_Gunslinger02 : ammo44MagnumBulletBall 4,19 -> 4,45 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupWeaponsT3_Gunslinger02']
+		/item[@name='ammo44MagnumBulletBall']/@count">4,45</set>
+
+	<!-- automotive : ammoGasCan 20,200 -> 20,980 -->
+	<set xpath="/lootcontainers/lootgroup[@name='automotive']
+		/item[@name='ammoGasCan']/@count">20,980</set>
+
+	<!-- prefabQuestLoot : ammoArrowSteelAP 500 -> 1000 -->
+	<set xpath="/lootcontainers/lootgroup[@name='prefabQuestLoot']
+		/item[@name='ammoArrowSteelAP']/@count">1000</set>
+
+	<!-- prefabQuestLoot : ammoShotgunShell 250 -> 500 -->
+	<set xpath="/lootcontainers/lootgroup[@name='prefabQuestLoot']
+		/item[@name='ammoShotgunShell']/@count">500</set>
+
+	<!-- prefabQuestLoot : ammo9mmBulletBall 100 -> 200 -->
+	<set xpath="/lootcontainers/lootgroup[@name='prefabQuestLoot']
+		/item[@name='ammo9mmBulletBall']/@count">200</set>
+
+	<!-- prefabQuestLoot : ammo762mmBulletBall 100 -> 200 -->
+	<set xpath="/lootcontainers/lootgroup[@name='prefabQuestLoot']
+		/item[@name='ammo762mmBulletBall']/@count">200</set>
+
+	<!-- groupQuestAmmo : ammo9mmBulletBall 200 -> 400 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupQuestAmmo']
+		/item[@name='ammo9mmBulletBall']/@count">400</set>
+
+	<!-- groupQuestAmmo : ammo9mmBulletHP 100 -> 200 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupQuestAmmo']
+		/item[@name='ammo9mmBulletHP']/@count">200</set>
+
+	<!-- groupQuestAmmo : ammo9mmBulletAP 100 -> 200 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupQuestAmmo']
+		/item[@name='ammo9mmBulletAP']/@count">200</set>
+
+	<!-- groupQuestAmmo : ammo44MagnumBulletBall 150 -> 300 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupQuestAmmo']
+		/item[@name='ammo44MagnumBulletBall']/@count">300</set>
+
+	<!-- groupQuestAmmo : ammo44MagnumBulletHP 100 -> 200 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupQuestAmmo']
+		/item[@name='ammo44MagnumBulletHP']/@count">200</set>
+
+	<!-- groupQuestAmmo : ammo44MagnumBulletAP 100 -> 200 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupQuestAmmo']
+		/item[@name='ammo44MagnumBulletAP']/@count">200</set>
+
+	<!-- groupQuestAmmo : ammoShotgunShell 120 -> 240 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupQuestAmmo']
+		/item[@name='ammoShotgunShell']/@count">240</set>
+
+	<!-- groupQuestAmmo : ammoShotgunSlug 75 -> 150 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupQuestAmmo']
+		/item[@name='ammoShotgunSlug']/@count">150</set>
+
+	<!-- groupQuestAmmo : ammo762mmBulletBall 120 -> 240 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupQuestAmmo']
+		/item[@name='ammo762mmBulletBall']/@count">240</set>
+
+	<!-- groupQuestAmmo : ammo762mmBulletHP 90 -> 180 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupQuestAmmo']
+		/item[@name='ammo762mmBulletHP']/@count">180</set>
+
+	<!-- groupQuestAmmo : ammo762mmBulletAP 90 -> 180 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupQuestAmmo']
+		/item[@name='ammo762mmBulletAP']/@count">180</set>
+
+	<!-- groupQuestAmmo : ammoArrowFlaming 50 -> 100 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupQuestAmmo']
+		/item[@name='ammoArrowFlaming']/@count">100</set>
+
+	<!-- groupQuestAmmo : ammoCrossbowBoltFlaming 50 -> 100 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupQuestAmmo']
+		/item[@name='ammoCrossbowBoltFlaming']/@count">100</set>
+
+	<!-- groupQuestAmmo : ammoArrowExploding 40 -> 80 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupQuestAmmo']
+		/item[@name='ammoArrowExploding']/@count">80</set>
+
+	<!-- groupQuestAmmo : ammoCrossbowBoltExploding 40 -> 80 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupQuestAmmo']
+		/item[@name='ammoCrossbowBoltExploding']/@count">80</set>
+
+	<!-- groupQuestAmmo : ammoRocketFrag 7 -> 14 -->
+	<set xpath="/lootcontainers/lootgroup[@name='groupQuestAmmo']
+		/item[@name='ammoRocketFrag']/@count">14</set>
+
+
+</configs>
+
+
+
+

@@ -1,6 +1,6 @@
 <configs>
 <!-- Cash -->
-
+<!--groupBuriedLootStashTreasure-->
   <!-- Junk cash from 1,6 -->
   <set xpath="/lootcontainers/lootgroup[@name='junk']
       /item[@name='oldCash']/@count">1,60</set> 
@@ -9,10 +9,10 @@
   <set xpath="/lootcontainers/lootgroup[@name='groupSafeLoot']
       /item[@name='oldCash']/@count">10,3000</set> 
 
-  <!-- Nightstand cash from 1,20 -->
-  <set xpath="/lootcontainers/lootcontainer[@id='6']
-      /item[@name='oldCash']/@count">1,200</set> 
-
+  <!-- Buried cash from 50,250 -->
+  <set xpath="/lootcontainers/lootgroup[@name='groupBuriedLootStashTreasureSub']
+      /item[@name='oldCash']/@count">50,2500</set> 
+      
   <!-- laundry cash from 1,7 -->
   <set xpath="/lootcontainers/lootcontainer[@id='13']
       /item[@name='oldCash']/@count">1,70</set> 
@@ -33,11 +33,6 @@
   <set xpath="/lootcontainers/lootcontainer[@id='55']
       /item[@name='oldCash']/@count">5,600</set> 
 
- <!-- Treasure cash from 50,250 -->
-  <set xpath="/lootcontainers/lootcontainer[@id='61']
-      /item[@name='oldCash']/@count">50,2500</set> 
-
-      
  <!-- Regular Loot cash from 150,500 -->
   <set xpath="/lootcontainers/lootcontainer[@id='70']
       /item[@name='oldCash']/@count">150,5000</set> 
@@ -58,14 +53,15 @@
   <!-- Junk coin from 1,5 -->
   <set xpath="/lootcontainers/lootgroup[@name='junk']
       /item[@name='casinoCoin']/@count">1,500</set> 
+      
+  <!-- Buried Loot coin from 3000,8000 -->
+  <set xpath="/lootcontainers/lootgroup[@name='groupBuriedLootStashTreasure']
+      /item[@name='casinoCoin']/@count">3000,16000</set> 
   
   <!-- Register coin from 1,60 -->
   <set xpath="/lootcontainers/lootcontainer[@id='55']
       /item[@name='casinoCoin']/@count">1,600</set> 
 
-  <!-- Treasure coin from 3000,8000 -->
-  <set xpath="/lootcontainers/lootcontainer[@id='61']
-      /item[@name='casinoCoin']/@count">3000,50000</set> 
 
   <!-- Regular Loot coin from 200,410 -->
   <set xpath="/lootcontainers/lootcontainer[@id='70']
@@ -78,7 +74,3 @@
  <!-- Boss Loot coin doesn't exist -->
       
 </configs>
-
-
-
-

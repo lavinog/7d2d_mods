@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
 	<ModInfo>
-		<Name value="Lavinog's Faster Starting Quest" />
-		<Description value="Reduces the tasks for the starter quest to just crafting
-    a bedroll and increases the skillpoint reward to 5." />
+		<Name value="Lavinog's Increased Ammo" />
+		<Description value="Increases amount of ammo that can be found." />
 		<Author value="lavinog" />
 		<Version value="19.180.0" />
 		<Website value="https://github.com/lavinog/7d2d_mods" />

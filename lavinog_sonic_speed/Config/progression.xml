@@ -1,5 +1,5 @@
 <configs>
-  <append xpath="/progression/perks/perk[@name='perkYeahScience']
-      /effect_group/passive_effect[@name='RecipeTagUnlocked'][@level='4,5']
+  <append xpath="/progression/perks/perk[@name='perkPhysician']
+      /effect_group/passive_effect[@name='RecipeTagUnlocked'][@level='3,4']
       /@tags">,drinkSonicJuice</append>
 </configs>

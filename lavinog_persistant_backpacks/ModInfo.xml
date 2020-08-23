@@ -4,7 +4,7 @@
 		<Name value="Lavinog's Persistant Drops" />
 		<Description value="Increases time before dropped backpacks (player, zombie, and loot container drops) despawn to 6 hours (21,600s)" />
 		<Author value="lavinog" />
-		<Version value="1.0" />
+		<Version value="19.180.0" />
 		<Website value="https://github.com/lavinog/7d2d_a17_mods" />
 	</ModInfo>
 </xml>

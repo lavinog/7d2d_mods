@@ -1,106 +1,308 @@
 <configs>
   <append xpath="/lootcontainers">
 
+  
+<!--
+######### Ammo Based Groups ########
+lootgroups:
+lavinog_start_loot_arrow
+lavinog_start_loot_bolt
+lavinog_start_loot_9mm
+lavinog_start_loot_44mag
+lavinog_start_loot_762mm
+lavinog_start_loot_shotgunshell
+lavinog_start_loot_turrets
 
-    <!-- ======= Archery ======= -->
-    <lootgroup name="lavinog_weapon_loot_archery" count="1">
-      <item name="gunBowWooden" mod_chance=".50"/>
-      <item name="gunCrossbowIron" mod_chance=".50"/>
-      <item name="gunBowCompound" mod_chance=".50"/>
-      <item name="gunCrossbowCompound" mod_chance=".50"/>
+######### Additional Groups ########
+lavinog_start_loot_melee
+lavinog_start_loot_armor
+-->
+  
+  
+
+    <!-- ======= Arrow ======= -->
+    <lootgroup name="lavinog_weapon_loot_arrow" count="1">
+      <item name="gunBowT3CompoundBow" prob="0.1" mod_chance=".50" quality="2,5"/>
+      <item name="gunBowT1WoodenBow" prob="0.9" mod_chance=".50" quality="2,5"/>
+    </lootgroup>
+
+    <lootgroup name="lavinog_bonus_loot_arrow" count="1">
+      <item name="ammoBundleArrowExploding" count="1,5" prob="0.01"/>      
+      <item name="ammoBundleArrowFlaming" count="1,5" prob="0.01"/>
+      <item name="ammoBundleArrowSteelAP" count="1,5" prob="0.01"/>
+      <item name="ammoBundleArrowIron" count="1,5" prob="0.05" />      
+      <item name="ammoArrowExploding" count="20,250" prob="0.1"/>      
+      <item name="ammoArrowFlaming" count="20,250" prob="0.1"/>      
+      <item name="ammoArrowSteelAP" count="60,250" prob="0.2"/>      
+      <item name="ammoArrowIron" count="120,250" prob="0.6"/>      
+    </lootgroup>
+    
+    <lootgroup name="lavinog_start_loot_arrow" count="all">
+      <item group="lavinog_weapon_loot_arrow"/>
+      <item group="lavinog_bonus_loot_arrow"/>
+      <item name="resourceFeather" count="60,500"/>
+      <item name="resourceArrowHeadIron" count="60,500"/>
+    </lootgroup>
+    
+    
+    
+    
+    <!-- ======= Bolt ======= -->
+    <lootgroup name="lavinog_weapon_loot_bolt" count="1">
+      <item name="gunBowT3CompoundCrossbow" prob="0.05" mod_chance=".50" quality="2,5"/>
+      <item name="gunBowT1IronCrossbow" prob="0.95" mod_chance=".50" quality="2,5"/>
+    </lootgroup>
+
+    <lootgroup name="lavinog_bonus_loot_bolt" count="1">
+      <item name="ammoBundleCrossbowBoltExploding" count="1,5" prob="0.01"/>      
+      <item name="ammoBundleCrossbowBoltFlaming" count="1,5" prob="0.01"/>      
+      <item name="ammoBundleCrossbowBoltSteelAP" count="1,5" prob="0.01"/>      
+      <item name="ammoBundleCrossbowBoltIron" count="1,5" prob="0.05"/>
+      <item name="ammoCrossbowBoltExploding" count="20,250" prob="0.1"/>
+      <item name="ammoCrossbowBoltFlaming" count="20,250" prob="0.1"/>
+      <item name="ammoCrossbowBoltSteelAP" count="60,250" prob="0.2"/>
+      <item name="ammoCrossbowBoltIron" count="120,250" prob="0.6" />      
+    </lootgroup>
+
+    
+    <lootgroup name="lavinog_start_loot_bolt" count="all">
+      <item group="lavinog_weapon_loot_bolt"/>
+      <item group="lavinog_bonus_loot_bolt"/>
+      <item name="resourceFeather" count="60,500"/>
+      <item name="resourceArrowHeadIron" count="60,500"/>
+    </lootgroup>
+    
+    
+    
+    
+    <!-- ======= 9mm ======= -->  
+    <lootgroup name="lavinog_weapon_loot_9mm" count="1">      
+      <item name="gunHandgunT3SMG5" prob="0.1" quality="2,5" mod_chance=".50"/>
+      <item name="gunHandgunT1Pistol" prob="0.85" quality="2,5" mod_chance=".50"/>
+    </lootgroup>
+    
+    <lootgroup name="lavinog_bonus_loot_9mm" count="1">
+      <item name="ammoBundle9mmBulletAP" count="1,5" prob="0.02"/>      
+      <item name="ammoBundle9mmBulletHP" count="1,5" prob="0.03"/>
+      <item name="ammoBundle9mmBulletBall" count="1,5" prob="0.04"/>
+      <item name="ammo9mmBulletAP" count="120,250" prob="0.1"/>
+      <item name="ammo9mmBulletHP" count="120,250" prob="0.2"/>
+      <item name="ammo9mmBulletBall" count="120,250" prob="0.7" />      
       
     </lootgroup>
-    
-    <lootgroup name="lavinog_start_loot_archery" count="all">
-      <item group="lavinog_weapon_loot_archery"/>
-      <item name="resourceFeather" count="60,250"/>
-      <item name="resourceArrowHeadIron" count="60,250"/>
-    </lootgroup>
-    
-
-    <!-- ======= Rifles ======= -->    
-    <lootgroup name="lavinog_weapon_loot_deadeye" count="1">
-      <item name="gunHuntingRifle" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger" mod_chance=".50"/>
-      <item name="gunMR10" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger" mod_chance=".50"/>            
-    </lootgroup>
-    
-    <lootgroup name="lavinog_start_loot_deadeye" count="all">
-      <item group="lavinog_weapon_loot_deadeye"/>
-      <item name="ammo762mmBulletBall" count="60,120"/>
-    </lootgroup>
-    
-    
-    <!-- ======= Machine Guns ======= -->    
-    <lootgroup name="lavinog_weapon_loot_machinegunner" count="1">
-      <item name="gunAK47" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger" mod_chance=".50"/>
-      <item name="gunM60" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger" mod_chance=".50"/>
-      <!--
-      <item name="gunTacticalAR" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger" mod_chance=".50"/>      
-      -->
-    </lootgroup>
-    
-    <lootgroup name="lavinog_start_loot_machinegunner" count="all">
-      <item group="lavinog_weapon_loot_machinegunner"/>
-      <item name="ammo762mmBulletBall" count="100,250"/>
-    </lootgroup>
-    
-    
-    <!-- ======= Shotguns ======= -->
-    <lootgroup name="lavinog_weapon_loot_boomstick" count="1">
-      <item name="gunDoubleBarrelShotgun" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger" mod_chance=".50"/>
-      <item name="gunPumpShotgun" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger" mod_chance=".50"/>      
-    </lootgroup>
-    
-    <lootgroup name="lavinog_start_loot_boomstick" count="all">
-      <item group="lavinog_weapon_loot_boomstick"/>
-      <item name="ammoShotgunShell" count="60,250"/>
-    </lootgroup>
-    
-    
-    
-    <!-- ======= Pistols ======= -->
-    <lootgroup name="lavinog_weapon_loot_gunslinger" count="1">
-      <item name="gunPistol" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger" mod_chance=".50"/>
-      <item name="gunSMG5" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger" mod_chance=".50"/>
-    </lootgroup>
-    
-    <lootgroup name="lavinog_start_loot_gunslinger" count="all">
-      <item group="lavinog_weapon_loot_gunslinger"/>
+        
+    <lootgroup name="lavinog_start_loot_9mm" count="all">
+      <item group="lavinog_weapon_loot_9mm"/>
+      <item group="lavinog_bonus_loot_9mm"/>
       <item name="ammo9mmBulletBall" count="120,250"/>
     </lootgroup>
 
-    <lootgroup name="lavinog_start_loot_enforcer" count="all">
-      <item name="gun44Magnum"/>
-      <item name="ammo44MagnumBulletBall" count="60,250"/>
+    
+    
+    
+    
+    <!-- ======= 44 Mag ======= -->  
+    <lootgroup name="lavinog_weapon_loot_44mag" count="1">      
+      <item name="gunHandgunT3DesertVulture" prob="0.05" quality="2,5" mod_chance=".50"/>      
+      <item name="gunHandgunT2Magnum44" prob="0.85" quality="2,5" mod_chance=".50"/>
+    </lootgroup>
+    
+    <lootgroup name="lavinog_bonus_loot_44mag" count="1">
+      <item name="ammoBundle44MagnumBulletAP" count="1,5" prob="0.02"/>      
+      <item name="ammoBundle44MagnumBulletHP" count="1,5" prob="0.03"/>
+      <item name="ammoBundle44MagnumBulletBall" count="1,5" prob="0.04"/>
+      <item name="ammo44MagnumBulletAP" count="120,250" prob="0.1"/>
+      <item name="ammo44MagnumBulletHP" count="120,250" prob="0.2"/>
+      <item name="ammo44MagnumBulletBall" count="120,250" prob="0.7" />      
+      
+    </lootgroup>
+        
+    <lootgroup name="lavinog_start_loot_44mag" count="all">
+      <item group="lavinog_weapon_loot_44mag"/>
+      <item group="lavinog_bonus_loot_44mag"/>
+      <item name="ammo44MagnumBulletBall" count="120,250"/>
+    </lootgroup>
+
+ 
+     
+    
+    <!-- ======= 762mm ======= -->  
+    <lootgroup name="lavinog_weapon_loot_762mm" count="1">      
+      <item name="gunRifleT3SniperRifle" prob="0.01" quality="2,5" mod_chance=".50"/>
+      <item name="gunMGT3M60" prob="0.01" quality="2,5" mod_chance=".50"/>
+      <item name="gunRifleT2MarksmanRifle" prob="0.05" quality="2,5" mod_chance=".50"/>
+      <item name="gunMGT2TacticalAR" prob="0.05" quality="2,5" mod_chance=".50"/>
+      <item name="gunMGT1AK47" prob="0.45" quality="2,5" mod_chance=".50"/>
+      <item name="gunRifleT1HuntingRifle" prob="0.45" quality="2,5" mod_chance=".50"/>
+    </lootgroup>
+    
+    <lootgroup name="lavinog_bonus_loot_762mm" count="1">
+      <item name="ammoBundle762mmBulletAP" count="1,5" prob="0.02"/>      
+      <item name="ammoBundle762mmBulletHP" count="1,5" prob="0.03"/>
+      <item name="ammoBundle762mmBulletBall" count="1,5" prob="0.04"/>
+      <item name="ammo762mmBulletAP" count="120,250" prob="0.1"/>
+      <item name="ammo762mmBulletHP" count="120,250" prob="0.2"/>
+      <item name="ammo762mmBulletBall" count="120,250" prob="0.7" />      
+      
+    </lootgroup>
+        
+    <lootgroup name="lavinog_start_loot_762mm" count="all">
+      <item group="lavinog_weapon_loot_762mm"/>
+      <item group="lavinog_bonus_loot_762mm"/>
+      <item name="ammo762mmBulletBall" count="120,250"/>
+    </lootgroup>
+
+  
+  
+  
+  
+    
+    <!-- ======= Shotgun Shell ======= -->  
+    <lootgroup name="lavinog_weapon_loot_shotgunshell" count="1">      
+      <item name="gunShotgunT3AutoShotgun" prob="0.01" quality="2,5" mod_chance=".50"/>
+      <item name="gunShotgunT2PumpShotgun" prob="0.1" quality="2,5" mod_chance=".50"/>
+      <item name="gunShotgunT1DoubleBarrel" prob="0.89" quality="2,5" mod_chance=".50"/>
+    </lootgroup>
+    
+    <lootgroup name="lavinog_bonus_loot_shotgunshell" count="1">
+      <item name="ammoBundleShotgunBreachingSlug" count="1,5" prob="0.02"/>      
+      <item name="ammoBundleShotgunSlug" count="1,5" prob="0.03"/>
+      <item name="ammoBundleShotgunShell" count="1,5" prob="0.04"/>
+      <item name="ammoShotgunBreachingSlug" count="120,250" prob="0.1"/>
+      <item name="ammoShotgunSlug" count="120,250" prob="0.2"/>
+      <item name="ammoShotgunShell" count="120,250" prob="0.7" />      
+    </lootgroup>
+        
+    <lootgroup name="lavinog_start_loot_shotgunshell" count="all">
+      <item group="lavinog_weapon_loot_shotgunshell"/>
+      <item group="lavinog_bonus_loot_shotgunshell"/>
+      <item name="ammoShotgunShell" count="120,250"/>
     </lootgroup>
 
     
-    <!-- ======= Science ======= -->
-    <lootgroup name="lavinog_start_loot_electrocutioner" count="all">
-      <item name="meleeStunBaton"/>
-      <item name="gunJunkTurret"/>
-      <item name="ammoJunkTurret" count="120,250"/>
+
+    
+    
+    <!-- ======= Turrets ======= -->  
+    <lootgroup name="lavinog_weapon_loot_turrets" count="1">      
+      <!--  Not Ready
+      <item name="gunBotT3JunkDrone" prob="0.01" quality="2,5" mod_chance=".50"/>
+      -->
+      <item name="gunBotT2JunkTurret" prob="1" quality="3,5" mod_chance=".50"/>
+    </lootgroup>
+    
+    <lootgroup name="lavinog_bonus_loot_turrets" count="1">
+      <item name="ammoBundleJunkTurretAP" count="1,5" prob="0.02"/>      
+      <item name="ammoBundleJunkTurretShell" count="1,5" prob="0.03"/>
+      <item name="ammoBundleJunkTurretRegular" count="1,5" prob="0.04"/>
+      <item name="ammoJunkTurretAP" count="120,250" prob="0.1"/>
+      <item name="ammoJunkTurretShell" count="120,250" prob="0.2"/>
+      <item name="ammoJunkTurretRegular" count="120,250" prob="0.7" />      
+      
+    </lootgroup>
+        
+    <lootgroup name="lavinog_start_loot_turrets" count="all">
+      <item group="lavinog_weapon_loot_turrets"/>
+      <item group="lavinog_bonus_loot_turrets"/>
+      <item name="gunBotT1JunkSledge"/>      
+      <item name="ammoJunkTurretRegular" count="120,250"/>
     </lootgroup>
 
     
-    <lootgroup name="lavinog_start_weapon">
-      <!-- Requires 2 to 3 slots -->
-      <item group="lavinog_start_loot_archery"/>
-      <item group="lavinog_start_loot_deadeye"/>
-      <item group="lavinog_start_loot_machinegunner"/>
-      <item group="lavinog_start_loot_boomstick"/>
-      <item group="lavinog_start_loot_gunslinger"/>
-      <item group="lavinog_start_loot_enforcer"/>
-      <item group="lavinog_start_loot_electrocutioner"/>
+    
+    
+    
+    
+    
+    <!-- ======= Melee ======= -->  
+    <lootgroup name="lavinog_weapon_loot_melee" count="1,2">      
+      <item name="meleeWpnBladeT3Machete" prob="0.05" quality="2,5" mod_chance=".50"/>
+      <item name="meleeWpnClubT3SteelClub" prob="0.05" quality="2,5" mod_chance=".50"/>
+      <item name="meleeWpnSpearT3SteelSpear" prob="0.05" quality="2,5" mod_chance=".50"/>
+      <item name="meleeWpnSledgeT3SteelSledgehammer" prob="0.05" quality="2,5" mod_chance=".50"/>
+      <item name="meleeWpnKnucklesT3SteelKnuckles" prob="0.05" quality="2,5" mod_chance=".50"/>
+      <item name="gunBotT1JunkSledge" prob="0.1" quality="2,5" mod_chance=".50"/>
+      <item name="meleeWpnKnucklesT1IronKnuckles" prob="0.1" quality="2,5" mod_chance=".50"/>
+      <item name="meleeWpnSledgeT1IronSledgehammer" prob="0.1" quality="2,5" mod_chance=".50"/>
+      <item name="meleeWpnSpearT1IronSpear" prob="0.1" quality="2,5" mod_chance=".50"/>
+      <item name="meleeWpnBatonT2StunBaton" prob="0.1" quality="2,5" mod_chance=".50"/>
+      <item name="meleeWpnClubT1BaseballBat" prob="0.1" quality="2,5" mod_chance=".50"/>
+      <item name="meleeWpnBladeT1HuntingKnife" prob="0.1" quality="2,5" mod_chance=".50"/>      
+    </lootgroup>
+        
+    <lootgroup name="lavinog_start_loot_melee" count="all">
+      <item group="lavinog_weapon_loot_melee"/>      
+    </lootgroup>
+
+    
+    
+    <!-- ======= Armor ======= -->  
+    <lootgroup name="lavinog_armor_loot" count="2,4">     
+    	<item name="armorMilitaryGloves" prob="0.01" quality="2,5"/>
+      <item name="armorMilitaryHelmet" prob="0.01" quality="2,5"/>
+      <item name="armorMilitaryBoots" prob="0.01" quality="2,5"/>
+      <item name="armorMilitaryLegs" prob="0.01" quality="2,5"/>
+      <item name="armorMilitaryVest" prob="0.01" quality="2,5"/>
+      <item name="armorSteelBoots" prob="0.01" quality="2,5"/>
+      <item name="armorSteelLegs" prob="0.01" quality="2,5"/>
+      <item name="armorSteelChest" prob="0.01" quality="2,5"/>
+      <item name="armorSteelGloves" prob="0.01" quality="2,5"/>
+      <item name="armorSteelHelmet" prob="0.01" quality="2,5"/>
+      <item name="armorSwatHelmet" prob="0.01" quality="2,5"/>
+      
+      <item name="armorIronGloves" prob="0.05" quality="2,5"/>
+      <item name="armorIronHelmet" prob="0.05" quality="2,5"/>
+      <item name="armorIronBoots" prob="0.05" quality="2,5"/>
+      <item name="armorIronLegs" prob="0.05" quality="2,5"/>
+      <item name="armorIronChest" prob="0.05" quality="2,5"/>
+      
+      <item name="armorScrapHelmet" prob="0.08" quality="2,5"/>
+      <item name="armorScrapChest" prob="0.08" quality="2,5"/>
+      <item name="armorScrapGloves" prob="0.08" quality="2,5"/>
+      <item name="armorScrapLegs" prob="0.08" quality="2,5"/>
+      <item name="armorScrapBoots" prob="0.08" quality="2,5"/>
+  
+      <item name="armorLeatherBoots" prob="0.08" quality="2,5"/>
+      <item name="armorLeatherPants" prob="0.08" quality="2,5"/>
+      <item name="armorLeatherChest" prob="0.08" quality="2,5"/>
+      <item name="armorLeatherGloves" prob="0.08" quality="2,5"/>
+      <item name="armorLeatherHood" prob="0.08" quality="2,5"/>
+      
+      <item name="armorClothPants" prob="0.10" quality="2,5"/>
+      <item name="armorClothJacket" prob="0.10" quality="2,5"/>
+      <item name="armorClothBoots" prob="0.10" quality="2,5"/>
+      <item name="armorClothGloves" prob="0.10" quality="2,5"/>
+      <item name="armorClothHat" prob="0.10" quality="2,5"/>
+    </lootgroup>
+        
+    <lootgroup name="lavinog_start_loot_armor" count="all">
+      <item group="lavinog_armor_loot"/>      
     </lootgroup>
 
     
 
-    <lootgroup name="lavinog_start_bonus">
+
+
+
+    
+    <lootgroup name="lavinog_start_ranged_weapon" count="1">
+      <item group="lavinog_start_loot_arrow"/>
+      <item group="lavinog_start_loot_bolt"/>
+      <item group="lavinog_start_loot_9mm"/>
+      <item group="lavinog_start_loot_44mag"/>      
+      <item group="lavinog_start_loot_shotgunshell"/>
+      <item group="lavinog_start_loot_turrets"/>
+      <item group="lavinog_start_loot_762mm"/>
+    </lootgroup>
+
+    
+
+    <lootgroup name="lavinog_start_bonus" count="1,2">
       <!-- Requires 1 to 5 slots -->
       <item name="casinoCoin" count="500,10000"/>
-      <item group="tools"/>
-      <item group="commonBooks"/>
+      <item group="groupToolsT1"/>
+      <item group="groupToolsT2" prob="0.3"/>
+      <item group="booksAllScaled"/>
       <item group="perkBooks"/>  
     </lootgroup>
 
@@ -116,10 +318,12 @@
     </lootgroup>
 
     <lootgroup name="lavinog_start_loot" count="all">
-      <item group="lavinog_start_weapon"/>      
+      <item group="lavinog_start_ranged_weapon"/>      
+      <item group="lavinog_start_loot_melee"/>      
+      <item group="lavinog_start_loot_armor"/>      
       <item group="lavinog_start_bonus"/>
       <item group="lavinog_start_bonus"/>
-      <item group="lavinog_start_resources"/>
+      <item group="lavinog_start_resources"/>      
     </lootgroup>
     
     <lootcontainer id="240" count="1" size="6,4"

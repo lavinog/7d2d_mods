@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
 	<ModInfo>
-		<Name value="Lavinog's Increased Zombie Drops" />
-		<Description value="Increases zombie backpack probability to 0.05/0.15/0.25 for regular/feral/radiated zombies." />
+		<Name value="Lavinog's ores on map" />
+		<Description value="Increases visibility of ore deposits on the map." />
 		<Author value="lavinog" />
 		<Version value="19.180.0" />
 		<Website value="https://github.com/lavinog/7d2d_mods" />
