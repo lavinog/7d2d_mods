@@ -1,0 +1,14 @@
+<configs>
+  <remove xpath="/quests/quest[@id='quest_BasicSurvival1']/reward[@type='Exp']" />
+  <remove xpath="/quests/quest[@id='quest_BasicSurvival1']
+    /reward[@type='Quest' and @id='quest_BasicSurvival2']" />
+
+  <append xpath="/quests/quest[@id='quest_BasicSurvival1']">
+  	<reward type="Quest" id="quest_whiteRiverCitizen1">
+			<property name="chainquest" value="false"/>
+		</reward>
+		<reward type="SkillPoints" value="5" chainreward="true"/>		
+	</append>
+</configs>
+
+
