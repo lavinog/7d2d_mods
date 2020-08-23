@@ -38,8 +38,8 @@
   
   
   <!-- Reduce impact damage during buff -->
-  <insertAfter xpath="/buffs/buff[@name='buffPlayerFallingDamage']/effect_group/triggered_effect[@trigger='onSelfBuffStart'][@cvar='$impactSpeed'][@operation='set']">
-      <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$impactSpeed" operation="subtract" value=".2828"> <!-- 20m -->
+  <insertAfter xpath="/buffs/buff[@name='buffPlayerFallingDamage']/effect_group/triggered_effect[@trigger='onSelfBuffStart'][@cvar='.impactSpeed'][@operation='set']">
+      <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".impactSpeed" operation="subtract" value=".2828"> <!-- 20m -->
 				<requirement name="HasBuff" buff="buffSonicSpeed"/>
 			</triggered_effect>
 	</insertAfter>
