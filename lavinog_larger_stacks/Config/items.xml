@@ -32,8 +32,73 @@
     /property[@name='Stacknumber']/@value">300
   </set>
   
-  <!-- drinkJarBoiledWater A18-->
+  <!-- drinkJarBoiledWater-->
   <set xpath="/items/item[@name='drinkJarBoiledWater']
+    /property[@name='Stacknumber']/@value">20
+  </set>
+  
+  <!-- drinkJarPureMineralWater-->
+  <set xpath="/items/item[@name='drinkJarPureMineralWater']
+    /property[@name='Stacknumber']/@value">20
+  </set>
+  
+  <!-- drinkJarYuccaJuice-->
+  <set xpath="/items/item[@name='drinkJarYuccaJuice']
+    /property[@name='Stacknumber']/@value">20
+  </set>
+  
+  <!-- drinkJarGoldenRodTea-->
+  <set xpath="/items/item[@name='drinkJarGoldenRodTea']
+    /property[@name='Stacknumber']/@value">20
+  </set>
+  
+  <!-- drinkJarRedTea-->
+  <set xpath="/items/item[@name='drinkJarRedTea']
+    /property[@name='Stacknumber']/@value">20
+  </set>
+  
+  <!-- drinkJarCoffee-->
+  <set xpath="/items/item[@name='drinkJarCoffee']
+    /property[@name='Stacknumber']/@value">20
+  </set>
+  
+  <!-- drinkJarBeer-->
+  <set xpath="/items/item[@name='drinkJarBeer']
+    /property[@name='Stacknumber']/@value">20
+  </set>
+  
+  <!-- drinkJarGrainAlcohol-->
+  <set xpath="/items/item[@name='drinkJarGrainAlcohol']
+    /property[@name='Stacknumber']/@value">20
+  </set>
+  
+  <!-- drinkJarGrandpasMoonshine-->
+  <set xpath="/items/item[@name='drinkJarGrandpasMoonshine']
+    /property[@name='Stacknumber']/@value">20
+  </set>
+  
+  <!-- drinkJarGrandpasAwesomeSauce-->
+  <set xpath="/items/item[@name='drinkJarGrandpasAwesomeSauce']
+    /property[@name='Stacknumber']/@value">20
+  </set>
+  
+  <!-- drinkJarGrandpasLearningElixir-->
+  <set xpath="/items/item[@name='drinkJarGrandpasLearningElixir']
+    /property[@name='Stacknumber']/@value">20
+  </set>
+  
+  <!-- drinkJarGrandpasForgettingElixir-->
+  <set xpath="/items/item[@name='drinkJarGrandpasForgettingElixir']
+    /property[@name='Stacknumber']/@value">20
+  </set>
+  
+  <!-- drinkJarGrandpasAwesomeSauce-->
+  <set xpath="/items/item[@name='drinkJarGrandpasAwesomeSauce']
+    /property[@name='Stacknumber']/@value">20
+  </set>
+  
+  <!-- drinkJarGrandpasAwesomeSauce-->
+  <set xpath="/items/item[@name='drinkJarGrandpasAwesomeSauce']
     /property[@name='Stacknumber']/@value">20
   </set>
   
