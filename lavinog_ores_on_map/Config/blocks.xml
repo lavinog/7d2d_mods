@@ -1,0 +1,28 @@
+<configs>
+
+  <!-- Iron : reddish grey -->
+  <append xpath="/blocks/block[@name='terrOreIron']">
+    <property name="Map.Color" value="113,72,72"/>      
+  </append>
+    
+  <!-- Lead : bluish white -->
+  <append xpath="/blocks/block[@name='terrOreLead']">
+    <property name="Map.Color" value="121,135,200"/>      
+  </append>
+  
+  <!-- Coal : Black -->
+  <append xpath="/blocks/block[@name='terrOreCoal']">
+    <property name="Map.Color" value="35,35,35"/>      
+  </append>
+    
+  <!-- Nitrate : white -->
+  <append xpath="/blocks/block[@name='terrOrePotassiumNitrate']">
+    <property name="Map.Color" value="230,230,230"/>      
+  </append>
+  
+  <!-- Oil : purple -->
+  <append xpath="/blocks/block[@name='terrOreOilDeposit']">
+    <property name="Map.Color" value="118,41,118"/>      
+  </append>
+  
+</configs>
