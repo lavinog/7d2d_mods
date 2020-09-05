@@ -3,7 +3,7 @@
 
 
 
-<recipe name="drinkSonicSpeedJuice" count="1" craft_area="chemistryStation" tags="learnable,perkYeahScienceCrafting,chemStationCrafting">
+<recipe name="drinkSonicSpeedJuice" count="1" craft_area="chemistryStation" tags="learnable,chemStationCrafting">
 	<ingredient name="resourceTestosteroneExtract" count="1"/>
   <ingredient name="foodCropBlueberries" count="5"/>
 	<ingredient name="drinkJarRiverWater" count="1"/>
