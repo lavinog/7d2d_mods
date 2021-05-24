@@ -1,0 +1,15 @@
+<config>
+  
+  <append xpath="/vehicles/vehicle[@name='vehicleBicycle']">
+    <property class="seat1">
+      <!--
+      <property name="position" value="0, .292, -.13"/>
+			<property name="rotation" value="0, 0, 0"/>
+      -->
+			<property name="position" value="0, .152, -1.002"/>
+			<property name="rotation" value="-20, 180, 0"/>
+			<property name="exit" value="-.8,0,0 ~ .8,0,0 ~ 0,0,-1.4 ~ 0,0,1.4 ~ 0,1.5,0"/>
+		</property>
+  </append>
+  
+</config>
