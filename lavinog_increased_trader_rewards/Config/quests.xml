@@ -253,9 +253,11 @@ buried_supplies exp
    <append xpath="/quests/quest[@id='quest_tier5complete']">
   	<reward type="Exp" value="16000"/>
   </append>
+  <!--
   <append xpath="/quests/quest[@id='quest_tier6complete']">
   	<reward type="Exp" value="20000"/>		
   </append>
+  -->
  
 <!-- Increase Coins for completing quest tiers -->  
   <set xpath="/quests/quest[@id='quest_tier1complete']
@@ -272,10 +274,10 @@ buried_supplies exp
   
   <set xpath="/quests/quest[@id='quest_tier5complete']
     /reward[@type='Item'][@id='casinoCoin']/@value">16000</set> 
-
+<!--
   <set xpath="/quests/quest[@id='quest_tier6complete']
     /reward[@type='Item'][@id='casinoCoin']/@value">20000</set> 
-    
+-->
   
     
   <!-- Grant skill point(s) for > T1 quests -->  

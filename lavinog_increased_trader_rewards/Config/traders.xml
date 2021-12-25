@@ -9,5 +9,5 @@
 
 <!-- Reduce vending machine rental cost and duration from $2500/30days -->
   <set xpath="/traders/trader_info[@id='5']/@rent_cost">250</set> 
-  <set xpath="/traders/trader_info[@id='5']/@rent_time">20</set>
+  <!--<set xpath="/traders/trader_info[@id='5']/@rent_time">20</set> -->
 </configs>
