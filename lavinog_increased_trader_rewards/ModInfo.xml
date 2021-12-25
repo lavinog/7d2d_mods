@@ -5,7 +5,7 @@
 		<Description value="Increases rewards for completing trader quests.\n Grants skillpoints for T2 and up.
     \n Opens the trader posts at 4:30am." />
 		<Author value="lavinog" />
-		<Version value="19.180.0" />
+		<Version value="20.0.233" />
 		<Website value="https://github.com/lavinog/7d2d_mods" />
 	</ModInfo>
 </xml>
