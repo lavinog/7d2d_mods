@@ -20,7 +20,7 @@
       <property name="CustomIconTint" value="fff030"/>
       -->
 
-      <property name="LootList" value="240"/> 
+      <property name="LootList" value="lavinog_cntStarterBag"/> 
     </block>
 
   </append>

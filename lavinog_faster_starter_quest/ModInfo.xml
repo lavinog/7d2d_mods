@@ -5,7 +5,7 @@
 		<Description value="Reduces the tasks for the starter quest to just crafting
     a bedroll and increases the skillpoint reward to 5." />
 		<Author value="lavinog" />
-		<Version value="19.180.0" />
+		<Version value="20.0.0" />
 		<Website value="https://github.com/lavinog/7d2d_mods" />
 	</ModInfo>
 </xml>
