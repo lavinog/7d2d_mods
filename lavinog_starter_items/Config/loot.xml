@@ -114,7 +114,6 @@ lavinog_start_loot_armor
       <item name="ammo44MagnumBulletAP" count="120,250" prob="0.1"/>
       <item name="ammo44MagnumBulletHP" count="120,250" prob="0.2"/>
       <item name="ammo44MagnumBulletBall" count="120,250" prob="0.7" />      
-      
     </lootgroup>
         
     <lootgroup name="lavinog_start_loot_44mag" count="all">
@@ -130,11 +129,12 @@ lavinog_start_loot_armor
     <lootgroup name="lavinog_weapon_loot_762mm" count="1">      
       <item name="gunRifleT3SniperRifle" prob="0.01" quality="2,5" mod_chance=".50"/>
       <item name="gunMGT3M60" prob="0.01" quality="2,5" mod_chance=".50"/>
-      <item name="gunRifleT2MarksmanRifle" prob="0.05" quality="2,5" mod_chance=".50"/>
+      <item name="gunRifleT2LeverActionRifle" prob="0.05" quality="2,5" mod_chance=".50"/>
       <item name="gunMGT2TacticalAR" prob="0.05" quality="2,5" mod_chance=".50"/>
       <item name="gunMGT1AK47" prob="0.45" quality="2,5" mod_chance=".50"/>
       <item name="gunRifleT1HuntingRifle" prob="0.45" quality="2,5" mod_chance=".50"/>
     </lootgroup>
+    
     
     <lootgroup name="lavinog_bonus_loot_762mm" count="1">
       <item name="ammoBundle762mmBulletAP" count="1,5" prob="0.02"/>      
@@ -168,9 +168,9 @@ lavinog_start_loot_armor
       <item name="ammoBundleShotgunBreachingSlug" count="1,5" prob="0.02"/>      
       <item name="ammoBundleShotgunSlug" count="1,5" prob="0.03"/>
       <item name="ammoBundleShotgunShell" count="1,5" prob="0.04"/>
-      <item name="ammoShotgunBreachingSlug" count="120,250" prob="0.1"/>
+      <item name="ammoShotgunBreachingSlug" count="120,250" prob="0.05"/>
       <item name="ammoShotgunSlug" count="120,250" prob="0.2"/>
-      <item name="ammoShotgunShell" count="120,250" prob="0.7" />      
+      <item name="ammoShotgunShell" count="120,250" prob="0.75" />      
     </lootgroup>
         
     <lootgroup name="lavinog_start_loot_shotgunshell" count="all">
@@ -185,9 +185,7 @@ lavinog_start_loot_armor
     
     <!-- ======= Turrets ======= -->  
     <lootgroup name="lavinog_weapon_loot_turrets" count="1">      
-      <!--  Not Ready
-      <item name="gunBotT3JunkDrone" prob="0.01" quality="2,5" mod_chance=".50"/>
-      -->
+      <item name="gunBotT3JunkDrone" prob="0.01" quality="2,5" mod_chance=".50"/>      
       <item name="gunBotT2JunkTurret" prob="1" quality="3,5" mod_chance=".50"/>
     </lootgroup>
     
@@ -197,8 +195,7 @@ lavinog_start_loot_armor
       <item name="ammoBundleJunkTurretRegular" count="1,5" prob="0.04"/>
       <item name="ammoJunkTurretAP" count="120,250" prob="0.1"/>
       <item name="ammoJunkTurretShell" count="120,250" prob="0.2"/>
-      <item name="ammoJunkTurretRegular" count="120,250" prob="0.7" />      
-      
+      <item name="ammoJunkTurretRegular" count="120,250" prob="0.7" />
     </lootgroup>
         
     <lootgroup name="lavinog_start_loot_turrets" count="all">
@@ -279,10 +276,6 @@ lavinog_start_loot_armor
       <item group="lavinog_armor_loot"/>      
     </lootgroup>
 
-    
-
-
-
 
     
     <lootgroup name="lavinog_start_ranged_weapon" count="1">
@@ -317,7 +310,7 @@ lavinog_start_loot_armor
       <item group="airdropfood" count="2,5"/>      
     </lootgroup>
 
-    <lootgroup name="lavinog_start_loot" count="all">
+    <lootgroup name="lavinog_groupStartLoot" count="all">
       <item group="lavinog_start_ranged_weapon"/>      
       <item group="lavinog_start_loot_melee"/>      
       <item group="lavinog_start_loot_armor"/>      
@@ -326,13 +319,13 @@ lavinog_start_loot_armor
       <item group="lavinog_start_resources"/>      
     </lootgroup>
     
-    <lootcontainer id="240" count="1" size="6,4"
+    <lootcontainer id="240" name="lavinog_cntStarterBag" count="1" size="6,4"
         sound_open="UseActions/open_backpack"
         sound_close="UseActions/close_backpack"
         open_time="3.0"
         loot_quality_template="qualPrimitiveItemsTemplate"
         destroy_on_close="true">      
-      <item group="lavinog_start_loot"/>      
+      <item group="lavinog_groupStartLoot"/>      
     </lootcontainer>
 
   </append>

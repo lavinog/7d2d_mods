@@ -67,10 +67,12 @@
     /property[@name='Stacknumber']/@value">20
   </set>
   
-  <!-- drinkJarGrainAlcohol-->
+  <!-- drinkJarGrainAlcohol Removed in A20-->
+  <!--
   <set xpath="/items/item[@name='drinkJarGrainAlcohol']
     /property[@name='Stacknumber']/@value">20
   </set>
+  -->
   
   <!-- drinkJarGrandpasMoonshine-->
   <set xpath="/items/item[@name='drinkJarGrandpasMoonshine']
