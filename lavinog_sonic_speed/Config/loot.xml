@@ -1,18 +1,26 @@
 <configs>
 
 
-
-  <append xpath="/lootcontainers/lootgroup[@name='farmingCookingRecipesRare']">
-    <item name="drinkSonicSpeedJuiceSchematic" prob="0.2"/>
+  
+  <append xpath="/lootcontainers/lootgroup[@name='farmingCookingRecipesT2']">
+    <item name="drinkSonicSpeedJuiceSchematic" loot_prob_template="med"/>
   </append>
 
 
   <append xpath="/lootcontainers/lootgroup[@name='groupDrinksRare']">
     <item name="drinkSonicSpeedJuice" prob="0.2"/>
   </append>
+  
+  <append xpath="/lootcontainers/lootgroup[@name='rareFoodDrink']">
+    <item name="drinkSonicSpeedJuice" prob="0.2"/>
+  </append>
 
   <append xpath="/lootcontainers/lootgroup[@name='groupMedicalRare']">
     <item name="drinkSonicSpeedJuice"/>
+  </append>
+
+  <append xpath="/lootcontainers/lootgroup[@name='groupQuestMedical']">
+    <item name="drinkSonicSpeedJuice" count="2,4" loot_prob_template="QuestT2Prob"/>
   </append>
 
   <append xpath="/lootcontainers/lootgroup[@name='groupChemistryStationLoot02']">
